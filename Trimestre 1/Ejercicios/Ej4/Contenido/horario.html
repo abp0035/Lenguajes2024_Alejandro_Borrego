@@ -2,48 +2,55 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Alejandro Borrego">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alejandro Borrego"> <!-- Autor del documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Horario Escolar</title>
     <style>
+        body{
+            background-color: #f0f0f0;
+        }
+        /* estilos para la tabla */
         table {
-            width: 80%;
-            margin: auto;
-            border-collapse: collapse;
-            font-family: Arial, sans-serif;
+            width: 80%; /* ancho de la tabla */
+            margin: auto; /* centrar la tabla  */
+            border-collapse: collapse; /* colapsar bordes para una apariencia más limpia */
+            font-family: Arial, sans-serif; /* fuente utilizada */
         }
+        
+        /* estilos para las celdas y encabezados de la tabla */
         th, td {
-            border: 1px solid black;
-            padding: 40px;
-            text-align: center;
+            border: 1px solid black; /* borde negro para las celdas */
+            padding: 20px; /* espacio interno de las celdas */
+            text-align: center; /* texto centrado en las celdas */
         }
-      
+        
+        /* estilo para el título de la tabla */
         caption {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 10px;
+            font-size: 20px; /* eamaño del texto  */
+            font-weight: bold; /* remarcado */
+            margin-bottom: 10px; /* margen inferior para separar el título de la tabla */
         }
     </style>
 </head>
 <body>
 
 <table>
-    <caption>Horario Escolar</caption>
+    <caption>Horario Escolar</caption> <!-- título  -->
     <tr>
-        <th>Hora</th>
-        <th>Lunes</th>
-        <th>Martes</th>
-        <th>Miércoles</th>
-        <th>Jueves</th>
-        <th>Viernes</th>
+        <th>Hora</th> 
+        <th>Lunes</th> 
+        <th>Martes</th> 
+        <th>Miércoles</th> 
+        <th>Jueves</th> 
+        <th>Viernes</th> 
     </tr>
     <tr>
-        <td>15:00 - 16:00</td>
-        <td style="background-color: pink;">Lenguaje</td>
-        <td style="background-color: pink;">Sistemas</td>
-        <td style="background-color: rgb(207, 34, 207);">Empleabilidad</td>
-        <td style="background-color: rgb(207, 34, 207);">Empleabilidad</td>
-        <td style="background-color: lightpink;">Lenguaje de marcas</td>
+        <td>15:00 - 16:00</td> 
+        <td style="background-color: pink;">Lenguaje</td> 
+        <td style="background-color: pink;">Sistemas</td> 
+        <td style="background-color: rgb(207, 34, 207);">Empleabilidad</td> 
+        <td style="background-color: rgb(207, 34, 207);">Empleabilidad</td> 
+        <td style="background-color: lightpink;">Lenguaje de marcas</td> 
     </tr>
     <tr>
         <td>16:00 - 17:00</td>
@@ -86,6 +93,6 @@
         <td style="background-color: yellow;">Programación</td>
     </tr>
 </table>
-
+    <a href="../index.html" style="display: block; text-align: center; margin-top: 20px;">Índex</a>
 </body>
 </html>

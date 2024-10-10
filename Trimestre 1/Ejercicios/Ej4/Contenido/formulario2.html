@@ -7,6 +7,110 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <style>
+        body {
+
+            padding-top: 10px; 
+        }
+        form {
+            padding: 170px;
+            margin: 0 auto;
+        }
+        td {
+            padding: 8px;
+        }
+        input[type="text"], input[type="password"], input[type="email"], select {
+            width: 100%;
+            padding: 8px;
+            border: 3px solid #000000;
+
+        }
+        input[type="text"].long {
+            width: 200%; /* Campos de mayor longitud */
+        }
+        input[type="submit"] {
+            margin-top: 5px;
+            padding: 10px 20px;
+            background-color: #c1c1c8;
+            color: white;
+        }
+      
+        .obligatorio {
+            color: red;
+            font-size: 0.9em;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td colspan="2" style="text-align: center;"><h2><img src="../imagenes/image.png" alt="Icono de formulario"
+                     style="vertical-align: middle; margin-right: 20px; width: 50px; height: 50px;">FORMULARIO DE INSCRIPCIÓN AL SISTEMA</h2></td>
+            <tr>
+                <td colspan="2" class="obligatorio">Todos los campos son obligatorios</td>
+            </tr>
+            <tr>
+                <td>Nombres:</td>
+                <td><input type="text" id="nombres" name="nombres" class="long" required></td>
+            </tr>
+            <tr>
+                <td>Apellidos:</td>
+                <td><input type="text" id="apellidos" name="apellidos" class="long" required></td>
+            </tr>
+            <tr>
+                <td>Empresa/Institución:</td>
+                <td><input type="text" id="empresa" name="empresa" class="long" required></td>
+            </tr>
+            <tr>
+                <td>Ámbito de la empresa:</td>
+                <td>
+                    <select id="ambito" name="ambito" required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="educacion">Educación</option>
+                        <option value="salud">Salud</option>
+                        <option value="tecnologia">Tecnología</option>
+                        <option value="finanzas">Finanzas</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Cargo:</td>
+                <td><input type="text" id="cargo" name="cargo" required></td>
+            </tr>
+            <tr>
+                <td>Nombre de usuario:</td>
+                <td><input type="text" id="usuario" name="usuario" required></td>
+                <td style="font-size: 0.9em;">(Nombre con el que se identificará dentro del sistema)</td>
+            </tr>
+            <tr>
+                <td>Contraseña:</td>
+                <td><input type="password" id="contrasena" name="contrasena" required></td>
+                <td style="font-size: 0.9em;">(Procure utilizar combinaciones alfanuméricas)</td>
+            </tr>
+            <tr>
+                <td>Repita contraseña:</td>
+                <td><input type="password" id="repetir_contrasena" name="repetir_contrasena" required></td>
+            </tr>
+            <tr>
+                <td>Correo electrónico:</td>
+                <td><input type="email" id="correo" name="correo" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="checkbox" id="terminos" name="terminos" required>
+                    <label for="terminos">He leído y acepto los términos del sistema</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Enviar formulario" style="margin: 0 auto;">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <a href="../index.html" style="display: block; text-align: center; margin-top: 20px;">Índex</a>
 </body>
 </html>

@@ -4,9 +4,88 @@
     <meta charset="UTF-8">
     <meta name="author" content="Alejandro Borrego">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario1</title>
 </head>
 <body>
-    
+    <style>
+        body {
+            padding-top: 10px; /* margen superior */
+            background-color: #f0f0f0; /* Color de fondo de la página */
+        }
+        
+        /* Estilo para el formulario */
+        form {
+            background-color: white; /* color de fondo del formulario */
+            padding: 50px; /* espaciado del formulario */
+            border: 12px solid #a64ca6; /* borde del formulario */
+            width: 350px; /* ancho del formulario */
+            margin: 0 auto; /* centrar el formulario */
+        }
+        
+        h2 {
+            color: #a64ca6; /* color del título */
+            margin-top: 20px; /* margen superior */
+            margin-bottom: 20px; /* margen inferior  */
+        }
+        
+        label {
+            display: block; /* asegura que cada etiqueta esté en una línea separada */
+            margin-top: 15px; /* margen superior de 15px para separar cada etiqueta  */
+            font-weight: bold; /* texto de la etiqueta en negrita para resaltar los campos del formulario. */
+        }
+
+        
+        input[type="text"], input[type="email"], input[type="tel"], input[type="url"], textarea {
+            width: 100%; /* ancho completo de cada campo */
+            padding: 10px; /* espaciao interno */
+            margin-top: 5px; /* margen superior para separar del label */
+            border: 2px solid #a64ca6; /* borde */
+
+        }
+        
+        input[type="submit"] { /* botón de enviar */
+            margin-top: 20px; /* margen superior  */
+            padding: 15px 0; /* espacio interno del botón */
+            background-color: #a64ca6; 
+            color: white; 
+            width: 107%; /* ancho del botón */
+        
+        }
+
+        .obligatorio {
+            color: red;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Formulario de contacto</h2>
+        <p>Escríbenos y en breve nos pondremos en contacto contigo</p>
+        
+        <label for="nombre">Nombre <span class="obligatorio">*</span></label> 
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+        
+        <label for="email">Email <span class="obligatorio">*</span></label>
+        <input type="email" id="email" name="email" placeholder="Escribe tu Email" required>
+        
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu teléfono">
+        
+        <label for="sitio_web">Sitio web</label>
+        <input type="url" id="sitio_web" name="sitio_web" placeholder="Escribe la URL de tu web">
+        
+        <label for="asunto">Asunto</label>
+        <input type="text" id="asunto" name="asunto" placeholder="Escribe un asunto">
+        
+        <label for="mensaje">Mensaje <span class="obligatorio">*</span></label>
+        <textarea id="mensaje" name="mensaje" placeholder="Deja aquí tu comentario..." required></textarea>
+        
+        <input type="submit" value="ENVIAR">
+        
+        <p class="obligatorio">* los campos son obligatorios.</p>
+    </form>
+    <br>
+    <a href="../index.html" style="display: block; text-align: center; margin-top: 20px;">Índex</a>
 </body>
 </html>
