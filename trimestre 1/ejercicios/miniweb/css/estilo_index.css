@@ -1,0 +1,31 @@
+body {
+    background-color: #B4AACF; /* Azul claro para un fondo agradable */
+    color: #333; /* Color de texto oscuro para buena legibilidad */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em; /* Tamaño grande para el título principal */
+    color: #006699;
+    text-decoration: underline; /* Subraya el título */
+}
+
+p {
+    font-size: 1.5em; /* Tamaño de letra grande y visible */
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #006699; /* Color de fondo del botón */
+    color: #fff; /* Color de texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #004466; /* Color de fondo más oscuro al pasar el mouse */
+}
