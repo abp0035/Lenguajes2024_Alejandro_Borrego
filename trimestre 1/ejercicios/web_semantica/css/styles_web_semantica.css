@@ -2,61 +2,52 @@ body {
     padding: 20px;
     background-color: #CECECD;
     font-family: Arial, sans-serif;
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
+    display: flex; /*Permite utilizar flex blox para alinear de manera flexible*/
+    flex-direction: column; /*Coloca el contenido verticalemnte*/
+    align-items: center; /*Centra el contenido horizontalmente*/
 }
-
-header, main, footer {
-    width: 1200px;
+ /*Estilo común*/
+header, main, footer {  
+    width: 100%;
+    max-width: 1200px; /* Limita el ancho a 1200px */
     margin-bottom: 20px;
 }
+
 
 header {
     background-color: #716F66;
     padding: 20px;
-    border-radius: 8px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    box-sizing: border-box;
+
 }
 
 header figure {
-    align-self: flex-start;
-    margin: 0;
+    align-self: flex-start; /*Coloca el logo a la izquierda*/
 }
 
-header figure img {
-    height: 80px;
-}
 
 header h1 {
     color: white;
     margin: 20px 0;
 }
 
-header nav {
-    margin-top: 10px;
-}
-
 header nav ul {
-    list-style: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
+    display: flex; 
+    justify-content: center;  /*Centra los elementos del menu de navegación*/
+    margin: 0;
 }
 
-header nav ul li {
-    margin: 0 15px;
+header nav ul li { /*Espacio entre cada enlace*/
+    margin: 0 15px; 
 }
 
 header nav ul li a {
     color: white;
-    text-decoration: none;
     font-weight: bold;
 }
 
@@ -64,41 +55,30 @@ section {
     background-color: white;
     padding: 20px;
     border: 1px solid #716F66;
-    border-radius: 8px;
     margin-bottom: 20px;
-    width: calc(100% - 40px); /* Ajustar el ancho para que quede más alineado */
-    box-sizing: border-box; /* Considerar el padding y borde en el ancho */
+    width: 100%;
+    box-sizing: border-box; /* Para evitar sobresalir del ancho */
 }
 
 section header {
     background-color: #716F66;
     color: white;
     padding: 10px;
-    border-radius: 5px;
     text-align: center;
 }
 
 article {
     display: flex;
-    align-items: center;
-    gap: 20px; /* Espacio entre el texto y la figura */
+    flex-direction: row;  /*Organiza los elementos en fila*/
     margin: 20px 0;
 }
 
-article div {
-    flex: 1;
-}
-
-article figure {
-    flex: 1;
-    margin: 0;
-}
 
 footer {
     text-align: center;
     background-color: #716F66;
     color: white;
     padding: 15px;
-    border-radius: 8px;
     width: 100%;
+    box-sizing: border-box; 
 }

@@ -1,0 +1,16 @@
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 30px;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    text-align: right;
+    padding: 10px;
+}

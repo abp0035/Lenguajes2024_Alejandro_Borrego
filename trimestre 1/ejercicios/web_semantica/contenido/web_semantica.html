@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="../css/styles_web_semantica.css"> <!-- Enlace al archivo CSS externo -->
 </head>
 <body>
-    <header>
-        <figure>
+    <header><!--Cabecera-->
+        <figure><!--Agrupa el logo (imagen corporativa)-->
             <img src="../multimedia/logo_medac.jpg" alt="Logo MEDAC" width="150">
         </figure>
-        <h1>Enciclopedia de Animales Mitológicos</h1>
-        <nav>
+        <h1>Criaturas Mitológicas</h1>
+        <nav> <!--Permite navegar por el menu de secciones de la página-->
             <ul>
                 <li><a href="#dragones">Dragones</a></li>
                 <li><a href="#grifos">Grifos</a></li>
@@ -21,56 +21,63 @@
         </nav>
     </header>
 
-    <main>
-        <!-- Sección de Dragones -->
-        <section>
+    <main> <!--Aquí tendremos el contenido principal de la página-->
+        <section> <!--Primera sección de información de la página(contenido genérico)-->
             <header>
-                <h2 id="dragones">Dragones</h2>
+                <h2 id="dragones">Dragones</h2> <!--El id nos permite navegar por enlaces-->
             </header>
-            <article>
+            <article><!--Muestra información más concreta dentro del section-->
                 <div>
-                    <h3>Origen y Descripción</h3>
-                    <p>Los dragones son criaturas mitológicas que aparecen en muchas culturas a lo largo de la historia. Generalmente se describen como enormes seres alados con la capacidad de escupir fuego.</p>
+                    <h3>Descripción</h3>
+                    <p>Los dragones son criaturas mitológicas que han aparecido en las leyendas y folclores de numerosas culturas a lo largo de la historia.
+                         Generalmente, se describen como seres enormes, con cuerpos cubiertos de escamas, alas imponentes y la habilidad de escupir fuego.
+                          Estas criaturas han simbolizado diferentes aspectos, dependiendo de la cultura: mientras que en la cultura occidental suelen ser
+                           representados como monstruos destructivos que protegen tesoros, en muchas culturas asiáticas, los dragones son un símbolo
+                            de poder, sabiduría y buena suerte.</p>
                 </div>
                 <figure>
-                    <video width="100%" height="auto" controls>
+                    <video width="560" height="315" controls>  <!--controls permite ejecutar el vídeo-->
                         <source src="../multimedia/video_dragon.mp4" type="video/mp4">
                     </video>
                 </figure>
             </article>
-            <footer>
-                <p>Fuente: Mitología Universal</p>
+            <footer><!--Pie de página-->
+                <p>Fuente: Wikipedia</p>
             </footer>
         </section>
 
-        <!-- Sección de Grifos -->
         <section>
             <header>
                 <h2 id="grifos">Grifos</h2>
             </header>
             <article>
                 <div>
-                    <h3>Los Grifos</h3>
-                    <p>Los grifos son criaturas majestuosas que combinan partes de águila y león, lo que los convierte en símbolos de poder y majestuosidad.</p>
+                    <h3>Descripción</h3>
+                    <p>Los grifos son criaturas majestuosas que combinan partes de dos de los animales más poderosos y nobles: el águila y el león.
+                         Tienen el cuerpo de un león, simbolizando fuerza y coraje, y la cabeza y las alas de un águila, que representan sabiduría y
+                          agudeza. Esta combinación hace del grifo un ser digno y protector, y a menudo se le considera un guardián de tesoros y 
+                          secretos antiguos. En la antigüedad, los grifos se representaban en el arte y la arquitectura como emblemas de poder, 
+                          custodios de lugares sagrados o reinos antiguos.</p>
                 </div>
                 <figure> <!--Usamos un iframe para incrustar la ventana de otra página web, ene ste caso de youtube y le añadimos el atributo allowfullscreen para permitir que se visualice en pantalla completa-->
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/JudMqOzbjFs" title="Video sobre Grifos en la mitología"   allowfullscreen></iframe>         
                        </figure>
             </article>
             <footer>
-                <p>Fuente: Mitología Universal</p>
+                <p>Fuente: Wikipedia</p>
             </footer>
         </section>
 
-        <!-- Sección de Kraken -->
         <section>
             <header>
                 <h2 id="kraken">Kraken</h2>
             </header>
             <article>
                 <div>
-                    <h3>El Kraken</h3>
-                    <p>El Kraken es una criatura legendaria que aparece en los mares, descrita como un enorme calamar o pulpo que ataca barcos y marineros. Es conocido por su gran tamaño y poder.</p>
+                    <h3>Descripción</h3>
+                    <p>El Kraken es una de las criaturas legendarias más aterradoras y misteriosas que habitan en las profundidades del océano.
+                         Originaria de la mitología escandinava, esta bestia se describe como un enorme calamar o pulpo gigante, 
+                        capaz de emerger de las profundidades para destruir barcos y arrastrar marineros al abismo.</p>
                 </div>
                 <figure>
                     <audio controls>
@@ -79,13 +86,15 @@
                 </figure>
             </article>
             <footer>
-                <p>Fuente: Mitología Universal</p>
+                <p>Fuente: Wikipedia</p>
             </footer>
         </section>
     </main>
+     <li><a href="web_semantica/index.html">INDEX</a></li> <br>
 
-    <footer>
-        <p>&copy; 2023 Enciclopedia de Animales Mitológicos</p>
+    <footer> 
+        <p>&copy; copyright </p>  <!--&copy sirve para implementar el caracter de copyright -->
+        <p>Fuente</p>
     </footer>
 </body>
 </html>

@@ -4,7 +4,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     margin: 0;
     
 }
@@ -14,7 +13,7 @@ form {
     padding: 50px; 
     border: 6px solid #716F66;
     width: 350px; 
-    max-width: 1200px; /* ancho máximo del formulario  */
+    max-width: 1200px; 
     margin: 0 auto;
 }
 

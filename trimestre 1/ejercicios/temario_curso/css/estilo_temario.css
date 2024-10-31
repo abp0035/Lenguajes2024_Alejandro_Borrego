@@ -1,0 +1,28 @@
+body {
+    background-color: #E8F8F5; /* Fondo verde claro */
+    color: #2C3E50; /* Color de texto gris oscuro */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #117A65; /* Título verde oscuro */
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #145A32; /* Color verde medio para los encabezados */
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+
+
+a {
+    color: #010101;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}

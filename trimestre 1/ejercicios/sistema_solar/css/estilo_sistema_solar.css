@@ -1,17 +1,47 @@
 body {
-    background-color: #B4AACF; 
-    color: #333; 
-    font-family: Arial, sans-serif;
-    text-align: center; 
-   
+    background-color: #2C3E50; 
+    color: #ECF0F1; 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    margin: 0;
+    padding: 20px;
+    text-align: center;
 }
 
 h1 {
-    font-size: 2.5em;
-    color: #006699;
+    color: #F39C12;
+    font-size: 3em; 
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #F39C12;
 }
 
 p {
-    font-size: 1.5em; 
+    font-size: 1.2em; 
+    margin-bottom: 20px; 
 }
+
+a {
+    color: #3498DB; 
+    font-weight: bold;
+}
+
+
+
+li {
+    margin-bottom: 10px; 
+}
+
+
+img {
+    margin: 20px 0;
+}
+
+
+
+
+
+
 
