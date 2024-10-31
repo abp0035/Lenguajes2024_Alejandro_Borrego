@@ -1,0 +1,73 @@
+body {
+    padding-top: 10px;
+    background-color: #CECECD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+form {
+    background-color: white;
+    padding: 50px; 
+    border: 6px solid #716F66;
+    width: 350px; 
+    max-width: 1200px; /* ancho máximo del formulario  */
+    margin: 0 auto;
+}
+
+h2 {
+    color: #716F66; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+label {
+    display: block; /* asegura que cada etiqueta esté en una línea separada */
+    margin-top: 15px;
+    font-weight: bold; 
+}
+
+/* Estilo para cada campos  */
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+input[type="url"], 
+input[type="date"], 
+input[type="time"], 
+input[type="number"], 
+input[type="color"], 
+input[type="file"], 
+textarea {
+    width: 100%;  
+    padding: 10px; 
+    margin-top: 5px; 
+    border: 2px solid #716F66; 
+}
+
+/* Estilo para el botón de enviar */
+input[type="submit"] {
+    margin-top: 20px; 
+    padding: 15px 0; 
+    background-color: #716F66; 
+    color: white; 
+    width: 107%; 
+    border: none;
+}
+
+
+
+.obligatorio {
+    color: red;
+    font-size: 0.8em;
+}
+
+
+a {
+    text-align: center;
+    display: block; /* Para que el enlace ocupe una línea completa manteniendo buenos margenes*/
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}

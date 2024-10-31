@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alejandro Borrego">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="../css/style_formulario.css"> <!-- Enlace al archivo CSS externo -->
+</head>
+<body>
+    <!-- Añadimos un contenedor para el formulario y el enlace -->
+     
+    <div class="form-container">
+        <form>
+            <h2>Formulario</h2>
+            <p>Rellena este formulario</p>
+            
+            <label for="nombre">Nombre <span class="obligatorio">*</span></label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+            
+            <label for="email">Email <span class="obligatorio">*</span></label>
+            <input type="email" id="email" name="email" placeholder="Escribe tu Email" required>
+            
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu teléfono">
+            
+            <label for="sitio_web">Sitio web</label>
+            <input type="url" id="sitio_web" name="sitio_web" placeholder="Escribe la URL de una web">
+            
+            <label for="fecha">Fecha </label>
+            <input type="date" id="fecha" name="fecha">
+            
+            <label for="hora">Hora</label>
+            <input type="time" id="hora" name="hora">
+            
+            <label for="cantidad">Introduce un número</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" max="100" placeholder="Introduce un número">
+            
+            <label for="color">Color favorito</label>
+            <input type="color" id="color" name="color">
+            
+            <label for="archivo">Adjuntar archivo</label>
+            <input type="file" id="archivo" name="archivo">
+        
+            <label>Selecciona tu género</label>
+            <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+            <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+    
+            <input type="submit" value="ENVIAR">
+            
+            <p class="obligatorio">* los campos son obligatorios.</p>
+        </form>
+        
+        <a href="../index.html" class="index-link">Índex</a>
+
+    </div>
+</body>
+</html>
