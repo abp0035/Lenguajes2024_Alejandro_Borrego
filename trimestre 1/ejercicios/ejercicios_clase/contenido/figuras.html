@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajas de Colores</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .contenedor {
+            width: 80%;
+            max-width: 800px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 10px;
+        }
+
+        td {
+            width: 30%;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 14px;
+            padding: 20px;
+            height: 100px;
+        }
+
+        .box1 {
+            background-color: antiquewhite;
+            border: 5px dotted black;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+
+        .box2 {
+            background-color: orange;
+            border: 5px solid black;
+            border-left: 50px solid black;
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 20px;
+            padding-top: 10%;
+            padding-left: 10%;
+        }
+
+        .box3 {
+            background-color: #f28b82;
+            border: 10px groove #ff6658;
+            border-radius: 10px;
+        }
+
+        .box4 {
+            background-color: #a0d995;
+            border: 10px inset #1c3d2d;
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+
+        .box5 {
+            background-color: peachpuff;
+            border: 10px dashed orange;
+            border-radius: 80%;
+            font-size: 24px;
+            height: 200px;
+            width: 200px;
+            margin: auto;
+        }
+
+        .box6 {
+            background-color: #d1c4e9;
+            border: 15px outset darkblue;
+        }
+
+        .box7 {
+            background: linear-gradient(to top, red, yellow);
+            border: 10px solid green;
+        }
+
+        .box8 {
+            background-color: white;
+            border: 15px solid;
+            border-color: blue red green yellow;
+        }
+
+        .box9 {
+            background-color: white;
+            border: 10px double purple;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <table>
+            <tr>
+                <td><div class="box box1">contenido caja 1</div></td>
+                <td><div class="box box2">Contenido de la caja 2</div></td>
+                <td><div class="box box3">Contenido de la caja 3</div></td>
+            </tr>
+            <tr>
+                <td><div class="box box4">Contenido de la caja 4</div></td>
+                <td><div class="box box5">?</div></td>
+                <td><div class="box box6">Contenido de la caja 6 </div></td>
+            </tr>
+            <tr>
+                <td><div class="box box7">Contenido de la caja 7 </div></td>
+                <td><div class="box box8">Contenido de la caja 8</div></td>
+                <td><div class="box box9">Contenido de la caja 9</div></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

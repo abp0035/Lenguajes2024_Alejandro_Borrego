@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circulo con CSS</title>
+    <style>
+        .circle {
+            width: 150px;              
+            height: 150px;            
+            background-color: #3498db; 
+            border-radius: 50%;       
+            border: 5px solid #2980b9; 
+            margin: 50px auto;         
+
+            
+        }
+        .half-circle {
+            width: 200px;            /* Ancho del círculo completo */
+            height: 100px;           /* Altura de la mitad del círculo */
+            background-color: #4CAF50; /* Color de fondo */
+            border-top-left-radius: 100px; /* Radio superior izquierdo */
+            border-top-right-radius: 100px; /* Radio superior derecho */
+            border-bottom-left-radius: 0; /* Sin radio en la parte inferior */
+            border-bottom-right-radius: 0; /* Sin radio en la parte inferior */
+             }
+             .half-circle-vertical {
+            width: 100px;              /* Ancho de la mitad del círculo */
+            height: 200px;             /* Altura del círculo completo */
+            background-color: #4CAF50; /* Color de fondo */
+            border-top-right-radius: 100px;  /* Radio superior derecho */
+            border-bottom-right-radius: 100px; /* Radio inferior derecho */
+            border-top-left-radius: 0;  /* Sin radio en el lado izquierdo */
+            border-bottom-left-radius: 0; /* Sin radio en el lado izquierdo */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="circle"></div>
+    <div class="half-circle"></div>
+    <div class="half-circle-vertical"></div>
+
+</body>
+</html>
