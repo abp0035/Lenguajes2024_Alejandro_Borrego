@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+</head>
+<body>
+    <style>
+        .flex-container {
+          background-color: #002E4C; 
+          display: flex;
+          flex-direction: row;  /*alinea en filas(horizonal)*/
+          flex-wrap: nowrap;
+          /* flex-wrap: wrap;  *//*para hacerlo responsive*/
+          /*cambios de dirección*/
+          /*  flex-direction: column; */
+         /*  flex-direction:row-reverse;  */
+          justify-content:start;  /*Si no hay un elemento flex no hace nada esta propiedad*/
+         /* justify-content: center;  lo pone en el centro*/
+         /* justify-content:end; lo pone al final*/
+        /*  justify-content: space-between; haya espacio entre cada contenedor*/
+        /*  justify-content: space-around; tb pone espacio en los margenes*/
+           /*Para comrpobar  align-items hay que darle una altura al contenedor*/
+       /*   height: 300px;  */
+       /*  align-items: center; centrada en vertical */
+        /* align-items:flex-start; al principio en vertical*/
+        /* align-items:flex-end; */
+         
+        /*align-items: stretch;   estira  en vertical hasta la altura  del contenedor principal*/
+
+        }
+        .flex-container > div {
+          background-color: #f1f1f1;
+          width: 100px;
+          margin: 10px;
+          text-align: center;
+          line-height: 75px;
+          font-size: 30px;
+        }
+
+       /*  #item3{
+            height: 50px;
+        } le da una altura concreta a este bloque solo */
+        
+        /* Ejemplo centrado */
+        .flex-container-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            background-color: #002E4C;
+}
+
+            .flex-container-center > div {
+           /*  display:table; */
+            background-color: #f1f1f1;
+            color: rgb(10, 35, 54);
+            width: 200px;
+            height: 200px;
+            /* line-height: 200px; */
+            text-align: center;
+            }
+            #texto_centrado{
+            display:table-cell;
+            vertical-align: middle;
+            /* height: 200px; */
+            }
+        </style>
+        </head>
+        <body>
+        <h1>Flex layout</h1>
+        
+        <div class="flex-container">
+          <div>1</div>
+          <div>2</div>
+          <div id="item3">3</div>  
+          <div>4</div>
+          <div>5</div>
+          
+        </div>
+        <hr>
+       <!--  <div class="flex-container-center">
+            <div><p id="texto_centrado">Texto centrado verticalmente usasndo display_table</p></div>
+        </div>
+         -->
+        
+        
+</body>
+</html>
