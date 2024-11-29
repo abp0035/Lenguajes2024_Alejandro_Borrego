@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #d7a01465;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+main > div {
+    text-align: center;
+    width: 275px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    margin: 10px 0 0 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #d7a01465;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bandera {
+    box-sizing: content-box;
+    width: 250px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 0;
+}
