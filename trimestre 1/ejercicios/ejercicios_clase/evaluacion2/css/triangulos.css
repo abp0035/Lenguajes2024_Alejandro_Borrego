@@ -1,0 +1,130 @@
+#checa {
+    position: relative;
+    background-image: linear-gradient(#fff 50%, #d7141a 50%);
+    background-size: 225px 150px;
+    width: 225px;
+    height: 150px;
+}
+
+#checa .triangulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+    border-left: 110px solid #11457e; 
+}
+
+#bahamas{
+    position:relative;
+    background-image:linear-gradient(#00abc9 33%,#fae042 33%,#fae042 66%,#00abc9 66%);
+    width:250px;
+    height:145px,
+}
+#bahamas .triangulo{
+ border-top:75px solid transparent;
+    border-bottom:75px solid transparent;
+    border-left:100px solid #000;
+}
+
+
+    #sudan{
+        position:relative; 
+        background-image:linear-gradient(red 33%,white 33%,white 66%,#000000 66%);
+        width:250px;
+        height:145px
+    }
+    #sudan .triangulo{
+     border-top:75px solid transparent;
+        border-bottom:75px solid transparent;
+        border-left:100px solid green;
+    }
+
+
+
+    .jordania {
+        position: relative;
+        background: linear-gradient(
+            to bottom,
+            black 33.33%, 
+            white 33.33% 66.66%,
+            #007a3d 66.66% 100% 
+        );
+    }
+    
+    .trianguloRojo {
+        position: absolute;
+        border-top: 75px solid transparent;
+        border-bottom: 75px solid transparent;
+        border-left: 1px solid #ce1126; 
+
+    }
+    
+    .estrellaBlanca {
+        position: absolute;
+        top: 50%;
+        left: 40px;
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        clip-path: polygon(
+            50% 0%, 61% 35%, 98% 35%, 68% 57%, 
+            79% 91%, 50% 70%, 21% 91%, 32% 57%, 
+            2% 35%, 39% 35%
+        );
+        transform: translate(-50%, -50%);
+    }
+    
+    .estrellaJordania {
+        position: absolute;
+        top: 50%;
+        left: 40px;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        clip-path: polygon(
+            50% 0%, 57% 29%, 85% 30%, 65% 50%, 
+            72% 80%, 50% 65%, 28% 80%, 35% 50%, 
+            15% 30%, 43% 29%
+        ); 
+        transform: translate(-50%, -50%);
+    }
+    
+    .barein {
+        position: relative;
+        width: 250px;
+        height: 150px;
+        background-color: #d71a28; 
+    }
+    
+    .franjaBlanca {
+        position: absolute;
+        top: 0;
+        left: 2;
+        width: 50px;
+        height: 100%;
+        background-color: white;
+        clip-path: polygon(
+            0% 0%,      
+            100% 8%,     
+            0% 16%,      
+            100% 24%,    
+            0% 32%,     
+            100% 40%,    
+            0% 48%,      
+            100% 56%,    
+            0% 64%,      
+            100% 72%,   
+            0% 80%,      
+            100% 88%,  
+            0% 100%      
+        );
+    }
+    
+
+
+
+
+ 

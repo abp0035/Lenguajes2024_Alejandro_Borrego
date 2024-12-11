@@ -1,0 +1,641 @@
+.turquia {
+    position: relative;   
+    background-color: #d52b1e; 
+    border: 2px solid black; 
+}
+
+.luna {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 60px; 
+    height: 60px;
+    background-color: white;
+    border-radius: 50%; 
+    transform: translate(-35%, -50%) rotate(-15deg); 
+}
+
+.lunaInterior {
+    position: absolute;
+    top: 50%;
+    left: 60%; 
+    width: 50px; 
+    height: 50px;
+    background-color: #d52b1e; 
+    border-radius: 50%; 
+    transform: translate(-47%, -47%); 
+}
+
+.estrellaT {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.maldivas {
+    position: relative;
+    background-color: #d7141a; 
+    border: 2px solid black; 
+}
+
+.rectanguloVerde {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 180px; 
+    height: 100px; 
+    background-color: #007e3a;
+    transform: translate(-50%, -50%); 
+}
+
+.lunaM {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px; 
+    height: 50px;
+    background-color: white;
+    border-radius: 50%; 
+    transform: translate(-35%, -50%) rotate(-15deg); 
+}
+
+.lunaInteriorM {
+    position: absolute;
+    top: 50%;
+    left: 60%; 
+    width: 40px; 
+    height: 40px;
+    background-color: #007e3a; 
+    border-radius: 50%; 
+    transform: translate(-60%, -50%);
+}
+
+
+.argelia {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    background: linear-gradient(to right, #007a33 50%, white 50%);
+    border: 2px solid black;
+}
+
+.lunaArgelia {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 50px;
+    height: 50px;
+    background-color: #d52b1e;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lunaInteriorArgelia {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.estrellaArgelia {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    width: 15px;
+    height: 15px;
+    background-color: #d52b1e;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+
+.azerbaiyan {
+    position: relative;
+    background: linear-gradient(
+        to bottom,
+        #00b9e4 33.33%, 
+        #ed2939 33.33% 66.66%,
+        #3c8e33 66.66% 100% 
+    );
+}
+
+.lunaA {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lunaInteriorA {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    width: 30px;
+    height: 30px;
+    background-color: #ed2939; 
+    border-radius: 50%;
+    transform: translate(-92%, -50%);
+}
+
+.estrellaA {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+.mauritania {
+    position: relative;
+    background: #007a3d; 
+}
+
+.mediaLunaMauritania {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    background: #007a3d; 
+    border: 6px solid #ffc400; 
+    border-radius: 50%;
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.centroMediaLunaM {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 60px;
+    background: #007a3d; 
+    border-radius: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.estrellaMauritania {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background: #ffc400; 
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    transform: translate(-50%, -50%);
+}
+
+
+.pakistan {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    background: #01411c;
+    border: 2px solid black;
+}
+
+.barraBlanca {
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background: white;
+}
+
+.mediaLunaPakistan {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centroMediaLunaP {
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    width: 65px;
+    height: 65px;
+    background: #01411c;
+    border-radius: 50%;
+    transform: translate(-60%, -60%);
+}
+
+.estrellaPakistan {
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    width: 20px;
+    height: 20px;
+    background: white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    transform: translate(-50%, -50%);
+}
+
+
+.libia {
+    position: relative;
+    background: linear-gradient(to bottom, 
+        #ff0000 33.33%, 
+        #000000 33.33% 66.66%, 
+        #008000 66.66% 
+    );
+}
+
+.mediaLunaLibia {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-65%, -50%);
+}
+
+.mediaLunaInteriorLibia {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #000000; 
+    border-radius: 50%;
+    transform: translate(-30%, -60%);
+}
+
+.estrellaLibia {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    clip-path: polygon(
+        50% 0%, 
+        61% 35%, 
+        98% 35%, 
+        68% 57%, 
+        79% 91%, 
+        50% 70%, 
+        21% 91%, 
+        32% 57%, 
+        2% 35%, 
+        39% 35%
+    );
+    transform: translate(-50%, -50%);
+}
+
+
+.singapur {
+    position: relative;
+    background: linear-gradient(to bottom, 
+        #ff0000 50%, 
+        white 50% 
+    );
+}
+
+.mediaLunaSingapur {
+    position: absolute;
+    top: 25%;
+    left:15%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mediaLunaInteriorSingapur {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 35px;
+    background-color: #ff0000; 
+    border-radius: 50%;
+    transform: translate(-15%, -50%);
+}
+
+.estrellaSingapur1 {
+    position: absolute;
+    top:10%;
+    left: 30%;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    clip-path: polygon(
+        50% 0%, 
+        61% 35%, 
+        98% 35%, 
+        68% 57%, 
+        79% 91%, 
+        50% 70%, 
+        21% 91%, 
+        32% 57%, 
+        2% 35%, 
+        39% 35%
+    );
+    transform: translate(-50%, -50%);
+}
+.estrellaSingapur2 {
+    position: absolute;
+    top:20%;
+    left: 35%;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    clip-path: polygon(
+        50% 0%, 
+        61% 35%, 
+        98% 35%, 
+        68% 57%, 
+        79% 91%, 
+        50% 70%, 
+        21% 91%, 
+        32% 57%, 
+        2% 35%, 
+        39% 35%
+    );
+    transform: translate(-50%, -50%);
+}
+.estrellaSingapur3 {
+    position: absolute;
+    top:33%;
+    left: 34%;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    clip-path: polygon(
+        50% 0%, 
+        61% 35%, 
+        98% 35%, 
+        68% 57%, 
+        79% 91%, 
+        50% 70%, 
+        21% 91%, 
+        32% 57%, 
+        2% 35%, 
+        39% 35%
+    );
+    transform: translate(-50%, -50%);
+}
+.estrellaSingapur4 {
+    position: absolute;
+    top:33%;
+    left: 25%;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    clip-path: polygon(
+        50% 0%, 
+        61% 35%, 
+        98% 35%, 
+        68% 57%, 
+        79% 91%, 
+        50% 70%, 
+        21% 91%, 
+        32% 57%, 
+        2% 35%, 
+        39% 35%
+    );
+    transform: translate(-50%, -50%);
+}
+.estrellaSingapur5 {
+    position: absolute;
+    top:20%;
+    left: 24%;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    clip-path: polygon(
+        50% 0%, 
+        61% 35%, 
+        98% 35%, 
+        68% 57%, 
+        79% 91%, 
+        50% 70%, 
+        21% 91%, 
+        32% 57%, 
+        2% 35%, 
+        39% 35%
+    );
+    transform: translate(-50%, -50%);
+}
+
+.comoros {
+    position: relative;
+    background: linear-gradient(
+        to bottom,
+        #FFD100 25%, 
+        white 25% 50%,
+        #FF0000 50% 75%,
+        #002B7F 75% 100% 
+    );
+}
+
+.trianguloRojoComoros {
+    position: absolute;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+    border-left: 125px solid #007A3D; 
+}
+
+.mediaLunaComoros {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mediaLunaInternaComoros {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #007A3D;
+    border-radius: 50%;
+    transform: translate(-25%, -50%);
+}
+
+.estrellaComoros {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    clip-path: polygon(
+        50% 0%, 61% 35%, 98% 35%, 68% 57%, 
+        79% 91%, 50% 70%, 21% 91%, 32% 57%, 
+        2% 35%, 39% 35%
+    );
+}
+
+.estrella1 {
+    top: 33%;
+    left: 50px;
+}
+
+.estrella2 {
+    top: 39%;
+    left: 50px;
+}
+
+.estrella3 {
+    top: 45%;
+    left: 50px;
+}
+
+.estrella4 {
+    top: 51%;
+    left: 50px;
+}
+
+.estrella5 {
+    top: 58%;
+    left: 50px;
+}
+
+
+
+.tunez {
+    position: relative;
+    background-color: #e70013;
+}
+
+.circuloBlanco {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mediaLuna {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mediaLunaInterna {
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    width: 40px;
+    height: 37px;
+    background-color: white; 
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.estrellaTunez {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    width: 30px;
+    height: 30px;
+    background-color: #e70013;
+    clip-path: polygon(
+        50% 0%, 61% 35%, 98% 35%, 68% 57%, 
+        79% 91%, 50% 70%, 21% 91%, 32% 57%, 
+        2% 35%, 39% 35%
+    );
+    transform: translate(-50%, -50%) rotate(60deg);
+}
+
+
+
+
+
+.sahara {
+    position: relative;
+    background: linear-gradient(
+        to bottom,
+        black 33.33%, 
+        white 33.33% 66.66%, 
+        #007a3d 66.66% 100%
+    );
+}
+
+.trianguloRojoSahara {
+    position: absolute;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+    border-left: 100px solid #d71a28;
+}
+
+.mediaLunaSahara {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 35px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-10%, -50%);
+    z-index: 1; 
+}
+
+.mediaLunaInternaSahara {
+    position: absolute;
+    top: 50%;
+    left: 53%; 
+    width: 40px;
+    height: 40px;
+    background-color: #d71a28;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.estrellaSahara {
+    position: absolute;
+    top: 50%;
+    left: 70%; 
+    width: 30px;
+    height: 30px;
+    background-color: #d71a28;
+    clip-path: polygon(
+        50% 0%, 61% 35%, 98% 35%, 68% 57%, 
+        79% 91%, 50% 70%, 21% 91%, 32% 57%, 
+        2% 35%, 39% 35%
+    );
+    transform: translate(-50%, -50%) rotate(60deg);
+}

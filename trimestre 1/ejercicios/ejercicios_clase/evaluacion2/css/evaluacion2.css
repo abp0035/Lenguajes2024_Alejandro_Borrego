@@ -4,11 +4,12 @@
 
 body {
     margin: 0;
+    background-color: beige;
 }
 
 header {
     text-align: center;
-    background-color: #d7a01465;
+    background-color: #0c0c0c;
     padding: 5px;
     color: white;
     text-align: center;
@@ -38,7 +39,7 @@ main > div {
 
 footer {
     text-align: center;
-    background-color: #d7a01465;
+    background-color: #0c0c0c;
     padding: 10px;
     color: white;
     position: fixed;
@@ -53,3 +54,6 @@ footer {
     border: 2px solid black;
     margin: 0;
 }
+
+
+

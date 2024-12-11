@@ -1,0 +1,270 @@
+.vietnam { 
+    background-color: red; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.estrella {
+    width: 60px;       
+    height: 60px;
+    background-color: yellow; 
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+
+
+
+.burkina {     
+    background: linear-gradient(to bottom, #009e49 50%, #ef2b2d 50%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.marruecos {     
+    background-color: #c1272d; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.marruecos .estrella {
+    background-color: #006233; 
+}
+
+
+
+.camerun {
+    background: linear-gradient(to right, #007a5e 33.33%, #ce1126 33.33% 66.66%, #fcd116 66.66%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.chile {
+   
+    background: 
+        linear-gradient(to bottom, #0033a0 50%, transparent 50%), 
+        linear-gradient(to bottom, white 50%, #d52b1e 50%); 
+    background-size: 35% 100%, 100% 100%; 
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.chile .estrella {
+    width: 30px; 
+    height: 30px;
+    position: absolute;
+    top: 10%; 
+    left: 10%; 
+    background-color: white;
+}
+
+
+
+.china {
+    background-color: #de2910;
+    position: relative;
+}
+
+.china .estrella {
+    background-color: #ffde00; 
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    left: 10px;
+}
+
+.china .estrella1 {
+    width: 20px;
+    height: 20px;
+    top: 8px;
+    left: 65px;
+    transform: rotate(-20deg);
+}
+
+.china .estrella2 {
+    width: 20px;
+    height: 20px;
+    top: 30px;
+    left: 80px;
+    transform: rotate(-5deg);
+}
+
+.china .estrella3 {
+    width: 20px;
+    height: 20px;
+    top: 55px;
+    left: 75px;
+    transform: rotate(10deg);
+}
+
+.china .estrella.estrella4 {
+    width: 20px;
+    height: 20px;
+    top: 65px;
+    left: 50px;
+    transform: rotate(25deg);
+}
+
+
+
+.curazao {
+    background: 
+        linear-gradient(to bottom, #003da5 70%, #fecd02 70% 80%, #003da5 80%); 
+    position: relative;
+}
+
+
+.curazao .estrella {
+    width: 25px;
+    height: 25px;
+    top: 10px; 
+    left: 15px; 
+    position: absolute;
+    background-color: white; 
+}
+
+.curazao .estrella.estrella2 {
+    width: 40px;
+    height: 40px;
+    top: 33px; 
+    left: 33px; 
+    position: absolute;
+    background-color: white; 
+}
+
+
+
+.liberia {
+    background: linear-gradient(
+            to bottom,
+            #d52b1e 0% 9.09%,   
+            white 9.09% 18.18%,
+            #d52b1e 18.18% 27.27%, 
+            white 27.27% 36.36%, 
+            #d52b1e 36.36% 45.45%, 
+            white 45.45% 54.54%, 
+            #d52b1e 54.54% 63.63%, 
+            white 63.63% 72.72%, 
+            #d52b1e 72.72% 81.81%, 
+            white 81.81% 90.90%, 
+            #d52b1e 90.90% 100% 
+        );    position: relative;
+}
+
+.liberia .cuadro {
+    width: 70px; 
+    height: 70px; 
+    background-color: #002868; 
+}
+
+.liberia .estrella {
+    top: 15px;
+    left: 15px;
+    width: 40px; 
+    height: 40px;
+    background-color: white; 
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+
+}
+
+
+
+.togo {
+    background: linear-gradient(
+            to bottom,
+            #008751 0% 20%,   
+            #FFD100 20% 40%,
+            #008751 40% 60%, 
+            #FFD100 60% 80%, 
+            #008751 80%
+            
+        );    position: relative;
+}
+
+.togo .cuadro {
+    width: 90px; 
+    height:75px; 
+    background-color: #D80012; 
+}
+
+.togo .estrella {
+    top: 20px;
+    left: 25px;
+    width: 40px; 
+    height: 40px;
+    background-color: white; 
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+
+}
+
+
+.micronesia {
+    position: relative;
+    width: 250px; 
+    height: 150px;
+    background-color: #5eb6e4; 
+    border: 2px solid black;
+}
+
+
+.estrellaM1 {
+    top: 25%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 25px; 
+    height: 25px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.estrellaM2 {
+    top: 75%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 25px; 
+    height: 25px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.estrellaM3 {
+    top: 50%; 
+    left: 35%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 25px; 
+    height: 25px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.estrellaM4 {
+    top: 50%; 
+    left: 65%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+
+
+
+
+

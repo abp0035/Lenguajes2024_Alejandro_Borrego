@@ -1,0 +1,165 @@
+.japon {
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.circuloRojo {
+    width: 75px; 
+    height: 75px;
+    background-color: #bc002d; 
+    border-radius: 50%; 
+}
+
+
+
+.bangladesh{
+    background-color: rgb(25, 97, 25); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.palaos{
+    background-color: rgb(104, 104, 255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circuloAmarillo {
+    width: 75px; 
+    height: 75px;
+    background-color: yellow; 
+    border-radius: 50%; 
+}
+
+.groenlandia {
+    background: linear-gradient(to bottom, white 50%, red 50% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.circuloGroend {
+    width: 75px; 
+    height: 75px;
+    background: conic-gradient(red 90deg, #ffffff 90deg 270deg, red 270deg 360deg);
+    border-radius: 50%; 
+}
+
+
+
+.coreaDelNorte {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    background: linear-gradient(
+        to bottom,
+        #024fa2 20%, 
+        #ed1c27 20% 80%,
+        #024fa2 80% 100%
+    );
+}
+
+.franjaBlancaSuperior,
+.franjaBlancaInferior {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
+
+.franjaBlancaSuperior {
+    top: 10%;
+}
+
+.franjaBlancaInferior {
+    bottom: 10%;
+}
+
+.circuloBlanco {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.estrellaRoja {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #ed1c27;
+    clip-path: polygon(
+        50% 0%, 61% 35%, 98% 35%, 68% 57%, 
+        79% 91%, 50% 70%, 21% 91%, 32% 57%, 
+        2% 35%, 39% 35%
+    );
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.niger {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    background: linear-gradient(
+        to bottom,
+        #ff9d00 33.33%, 
+        white 33.33% 66.66%, 
+        #008751 66.66% 100% 
+    );
+}
+
+.circuloNaranja {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #ff9d00; 
+    border-radius: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.laos {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    background: linear-gradient(
+        to bottom,
+        #ce1126 33.33%, 
+        #002868 33.33% 66.66%, 
+        #ce1126 66.66% 100% 
+    );
+}
+
+.circuloBlancoLaos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+

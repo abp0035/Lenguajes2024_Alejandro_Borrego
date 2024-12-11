@@ -1,0 +1,39 @@
+.italia{
+    background: linear-gradient(to right, green 33.33%, white 33.33% 66.66%, red 66.66%);
+}
+
+.Mali{
+    background: linear-gradient(to right, rgb(76, 197, 76) 33.33%, yellow 33.33% 66.66%, red 66.66%);
+}
+
+
+.marfil{
+    background: linear-gradient(to right, orange 33.33%, white 33.33% 66.66%, green 66.66%);
+}
+
+.guinea{
+    background: linear-gradient(to right, red 33.33%, yellow 33.33% 66.66%, green 66.66%);
+}
+
+.nigeria{
+    background: linear-gradient(to right, green 33.33%, white 33.33% 66.66%, green 66.66%);
+}
+
+.rumania{
+    background: linear-gradient(to right, blue 33.33%, yellow 33.33% 66.66%, red 66.66%);
+}
+
+.belga{
+    background: linear-gradient(to right, rgb(7, 5, 5) 33.33%, yellow 33.33% 66.66%, red 66.66%);
+}
+
+.francia{
+    background: linear-gradient(to right, rgb(7, 7, 158) 33.33%, white 33.33% 66.66%, red 66.66%);
+}
+.irlanda{
+    background: linear-gradient(to right, green 33.33%, white 33.33% 66.66%, orange 66.66%);
+}
+
+.chad{
+    background: linear-gradient(to right, rgb(7, 7, 105) 33.33%, yellow 33.33% 66.66%, red 66.66%);
+}
