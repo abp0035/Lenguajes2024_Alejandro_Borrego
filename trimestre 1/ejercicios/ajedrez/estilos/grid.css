@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    backg
+    
 }
 
 
@@ -22,6 +22,7 @@ header {
     background-color: rgb(93, 175, 196) ;
     padding: 14px 20px;
     color: white;
+    
 }
 
 header h1 {
@@ -52,6 +53,7 @@ nav {
     background-color:  rgb(168, 220, 233);
     padding: 10px 0; 
     margin-bottom: 20px;
+
 }
 
 nav a {
@@ -87,15 +89,15 @@ nav a:hover {
 }
 
 .blanca {
-    background-image: url(../imagenes/blanco.png);
+    background-image: url(../imagenes/tableroGrid/blanco.png);
 }
 
 .negra {
-    background-image: url(../imagenes/negro.png);
+    background-image: url(../imagenes/tableroGrid/negro.png);
 }
 
 .horizontal{
-    background-image: url(../imagenes/horizontal.png);
+    background-image: url(../imagenes/tableroGrid/horizontal.png);
     color: #180e01;
     font-weight: bold;
     text-align: center; 
@@ -103,26 +105,26 @@ nav a:hover {
 }
 
 .vertical{
-    background-image: url(../imagenes/vertical.png);
+    background-image: url(../imagenes/tableroGrid/vertical.png);
     color: #180e01;
     font-weight: bold;
     font-size: 30px;
 }
 
 .esquina1{
-    background-image: url(../imagenes/esquina1.png);
+    background-image: url(../imagenes/tableroGrid/esquina1.png);
 }
 
 .esquina2{
-    background-image: url(../imagenes/esquina2.png);
+    background-image: url(../imagenes/tableroGrid/esquina2.png);
 }
 
 .esquina3{
-    background-image: url(../imagenes/esquina3.png);
+    background-image: url(../imagenes/tableroGrid/esquina3.png);
 }
 
 .esquina4{
-    background-image: url(../imagenes/esquina4.png);
+    background-image: url(../imagenes/tableroGrid/esquina4.png);
 }
 
 img{

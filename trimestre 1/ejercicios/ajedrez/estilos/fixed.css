@@ -184,12 +184,12 @@ img{
 }
 
 .blanca {
-    background-image: url(/Ejercicios/ajedrez/contenido/imagenes/tablero4/blanco.png);
+    background-image: url(../imagenes/tableroFixed/blanca.png);
     background-size: cover; /* Ancho y el alto del elemento ajustado. */
 }
 
 .negra {
-    background-image: url(/Ejercicios/ajedrez/contenido/imagenes/tablero4/negro.png);
+    background-image: url(../imagenes/tableroFixed/negra.png);
     background-size: cover; /* Ancho y el alto del elemento ajustado. */
 }
 
@@ -226,7 +226,7 @@ img{
 }
 
 .esquina3{
-    background-image: url(/Ejercicios/ajedrez/contenido/imagenes/tablero4/abajoIzquierda.png);
+    background-image: url(../imagenes/tableroFixed/esquina3.png);
     background-size: cover; /* Ancho y el alto del elemento ajustado. */
 }
 
