@@ -1,0 +1,108 @@
+body {
+
+    font-family: Arial, sans-serif;
+    width: 100%; 
+    height: 100%; 
+    display: flex; /* Usamos Flexbox */
+    flex-direction: column; /* Organiza los elementos en una columna */
+}
+
+header {
+    display: flex;
+    justify-content: center;  /* Centra el título entre el logo y el nav */
+    align-items: center;  /* Centra verticalmente los elementos */
+    background-color: #002c54;
+    padding: 14px 20px;
+    color: white;
+}
+
+
+header h1 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    flex: 1; /* El título ocupa el espacio disponible entre el logo y el nav */
+}
+
+.logo {
+    width: 50px; /* Tamaño del logo */
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;  /* Centra los enlaces */
+    gap: 20px; /* Añade espacio entre los enlaces */
+    background-color: #a5a5a5; 
+    padding: 5px 0;  /* Altura a la barra */
+}
+
+/* ESTILO DE LOS ELEMENTOS DE NAVEGACIÓN */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #a5a5a5;
+}
+
+nav a:hover {
+    background-color: #666;
+}
+
+
+.blancas {
+
+    background-color: bisque;
+
+}
+
+.negras {
+
+    background-color: rgb(27, 27, 27);
+
+}
+
+table {
+
+
+
+     width: 800px; 
+     height: 800px;
+    border-collapse: collapse;
+    margin: auto;
+
+
+
+}
+
+th,td {
+
+    border: 1px solid;
+    /*padding: 110px;*/
+    height: 5.21vw;
+    width: 5.21vw;
+
+    /*En mi opinion es mejor sin responsive*/
+
+    /*text-align: center;*/
+    box-sizing: border-box;
+
+
+}
+
+img {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+
+footer {
+    background-color: #77777733; 
+    color: #FFFFFF;
+    width: 100%;  /* Ocupa todo el ancho */
+    text-align: center;  /* Centra el texto */
+    padding: 7px;
+    margin-top: auto;  /* Asegura que el footer esté siempre al final */
+}

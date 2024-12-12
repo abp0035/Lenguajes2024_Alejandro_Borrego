@@ -235,27 +235,8 @@ img{
     background-size: cover; /* Ancho y el alto del elemento ajustado. */
 }
 
-/*//////////////////////////////////////*/
-/*//////////////////////////////////////*/
-/* BOTÓN PARA REGRESAR AL SUBIR ARRIBA DE LA PÁGINA PRINCIPAL */
 
-#boton {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%; /* Hace que el botón sea redondo */
-    overflow: hidden; /* Asegura que la imagen se mantenga dentro del círculo */
-    justify-content: center;  /* Centra la imagen dentro del botón */
-    align-items: center;  /* Alinea la imagen verticalmente */
-}
 
-#boton img {
-    width: 100%;  /* Asegura que la imagen llene todo el contenedor */
-    height: 100%;  /* Asegura que la imagen llene todo el contenedor */
-    border-radius: 50%; /* Asegura que la imagen también sea redonda */
-}
 
 /* PIE DE PÁGINA */
 footer {
