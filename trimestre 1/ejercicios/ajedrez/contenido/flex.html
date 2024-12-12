@@ -1,11 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tableros de ajedrez</title>
+    <link rel="stylesheet" href="../estilos/flex.css">
 </head>
+
 <body>
+    <header>
+        <div class="logo">
+            <img class="logo" src="/Ejerc.png" alt="Logo">
+        </div>
+        <h1 id="inicioPagina">Ajedrez "Flex"</h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="../contenido/grid.html">Ajedrez "Grid"</a>
+        <a href="../contenido/float.html">Ajedrez "Float"</a>
+        <a href="../contenido/fixed.html">Ajedrez "Fixed"</a>
+    </nav>
+
     
+    <div>
+        <div class="tablero">
+            <div class="fila">
+                <div class="casilla esquina1"></div>
+                <div class="casilla horizontal1">A</div>
+                <div class="casilla horizontal1">B</div>
+                <div class="casilla horizontal1">C</div>
+                <div class="casilla horizontal1">D</div>
+                <div class="casilla horizontal1">E</div>
+                <div class="casilla horizontal1">F</div>
+                <div class="casilla horizontal1">G</div>
+                <div class="casilla horizontal1">H</div>
+                <div class="casilla esquina2"></div>
+            </div>
+            <div class="fila">
+                <div class="casilla vertical2">8</div>
+                <div class="casilla negra"><img src="../imagenes/torrenegra.png"></div>
+                <div class="casilla blanca"><img src="../imagenes/caballonegro.png"></div>
+                <div class="casilla negra"><img src="../imagenes/alfilnegro.png"></div>
+                <div class="casilla blanca"><img src="../imagenes/reinanegra.png"></div>
+                <div class="casilla negra"><img src="../imagenes/reynegro.png"></div>
+                <div class="casilla blanca"><img src="../imagenes/alfilnegro.png"></div>
+                <div class="casilla negra"><img src="../imagenes/caballonegro.png"></div>
+                <div class="casilla blanca"><img src="../imagenes/torrenegra.png"></div>
+                <div class="casilla vertical1">8</div>
+            </div>
+            <div class="fila">
+                <div class="casilla vertical2">7</div>
+                <div class="casilla blanca"><img src="../imagenes/peonnegro.png"></div>
+                <div class="casilla negra"><img src="../imagenes/peonnegro.png"></div>
+                <div class="casilla blanca"><img src="../imagenes/peonnegro.png"></div>
+                <div class="casilla negra"><img src="../imagenes/peonnegro.png"></div>
+                <div class="casilla blanca"><img src="../imagenes/peonnegro.png"></div>
+                <div class="casilla negra"><img src="../imagenes/peonnegro.png"></div>
+                <div class="casilla blanca"><img src="../imagenes/peonnegro.png"></div>
+                <div class="casilla negra"><img src="../imagenes/peonnegro.png"></div>
+                <div class="casilla vertical1">7</div>
+            </div>
+            <div class="fila">
+                <div class="casilla vertical2">6</div>
+                <div class="casilla negra"></div>
+                <div class="casilla blanca"></div>
+                <div class="casilla negra"></div>
+                <div class="casilla blanca"></div>
+                <div class="casilla negra"></div>
+                <div class="casilla blanca"></div>
+                <div class="casilla negra"></div>
+                <div class="casilla blanca"></div>
+                <div class="casilla vertical1">6</div>
+            </div>
+            <div class="fila">
+                <div class="casilla vertical2">5</div>
+                <div class="casilla blanca"></div>
+                <div class="casilla negra"></div>
+                <div class="casilla blanca"></div>
+                <div class="casilla negra"></div>
+                <div class="casilla blanca"></div>
+                <div class="casilla negra"></div>
+                <div class="casilla blanca"></div>
+                <div class="casilla negra"></div>
+                <div class="casilla vertical1">5</div>
+            </div>
+            <div class="fila">
+                <div class="casilla vertical2">4</div>
+                <div class="casilla negra"></div>
+                <div class="casilla blanca"></div>
+                <div class="casilla negra"></div>
+                <div class="casilla blanca"></div>
+                <div class="casilla negra"></div>
+                <div class="casilla blanca"></div>
+                <div class="casilla negra"></div>
+                <div class="casilla blanca"></div>
+                <div class="casilla vertical1">4</div>
+            </div>
+            <div class="fila">
+                <div class="casilla vertical2">3</div>
+                <div class="casilla blanca"></div>
+                <div class="casilla negra"></div>
+                <div class="casilla blanca"></div>
+                <div class="casilla negra"></div>
+                <div class="casilla blanca"></div>
+                <div class="casilla negra"></div>
+                <div class="casilla blanca"></div>
+                <div class="casilla negra"></div>
+                <div class="casilla vertical1">3</div>
+            </div>
+            <div class="fila">
+                <div class="casilla vertical2">2</div>
+                <div class="casilla negra"><img src="../imagenes/peonblanco.png"></div>
+                <div class="casilla blanca"><img src="../imagenes/peonblanco.png"></div>
+                <div class="casilla negra"><img src="../imagenes/peonblanco.png"></div>
+                <div class="casilla blanca"><img src="../imagenes/peonblanco.png"></div>
+                <div class="casilla negra"><img src="../imagenes/peonblanco.png"></div>
+                <div class="casilla blanca"><img src="../imagenes/peonblanco.png"></div>
+                <div class="casilla negra"><img src="../imagenes/peonblanco.png"></div>
+                <div class="casilla blanca"><img src="../imagenes/peonblanco.png"></div>
+                <div class="casilla vertical1">2</div>
+            </div>
+            <div class="fila">
+                <div class="casilla vertical2">1</div>
+                <div class="casilla blanca"><img src="../imagenes/torreblanca.png"></div>
+                <div class="casilla negra"><img src="../imagenes/caballoblanco.png"></div>
+                <div class="casilla blanca"><img src="../imagenes/alfilblanco.png"></div>
+                <div class="casilla negra"><img src="../imagenes/reinablanca.png"></div>
+                <div class="casilla blanca"><img src="../imagenes/reyblanco.png"></div>
+                <div class="casilla negra"><img src="../imagenes/alfilblanco.png"></div>
+                <div class="casilla blanca"><img src="../imagenes/caballoblanco.png"></div>
+                <div class="casilla negra"><img src="../imagenes/torreblanca.png"></div>
+                <div class="casilla vertical1">1</div>
+            </div>
+            <div class="fila">
+                <div class="casilla esquina4"></div>
+                <div class="casilla horizontal2">A</div>
+                <div class="casilla horizontal2">B</div>
+                <div class="casilla horizontal2">C</div>
+                <div class="casilla horizontal2">D</div>
+                <div class="casilla horizontal2">E</div>
+                <div class="casilla horizontal2">F</div>
+                <div class="casilla horizontal2">G</div>
+                <div class="casilla horizontal2">H</div>
+                <div class="casilla esquina3"></div>
+            </div>
+        </div>
+    </div>
+    
+   
+    <footer>
+        <p>&copy; Alejandro Borrego </p>
+    </footer>
 </body>
+
 </html>
