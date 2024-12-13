@@ -5,6 +5,8 @@
     box-sizing: border-box;
     
 }
+
+
 header {
     display: grid;
     grid-template-columns: auto 1fr auto; /* Columnas para logo, título y nav */
@@ -21,9 +23,11 @@ header h1 {
     text-align: center; 
     grid-column: 2; /* Coloca el título en la segunda columna */
 }
+
+
 nav {
     display: grid;
-    grid-auto-flow: column; /* Organiza los enlaces en  fila */
+    grid-auto-flow: column; /* Organiza los enlaces */
     justify-content: center; 
     gap: 20px; 
     background-color:  rgb(168, 220, 233);
@@ -34,7 +38,7 @@ nav {
 
 nav a {
     color: white;
-    text-decoration: none;
+    text-decoration: none; 
     padding: 5px;
     background-color: rgb(168, 220, 233);
     text-align: center;
@@ -49,13 +53,15 @@ nav a:hover {
 .logo {
     width: 75px; 
     height: 75px;
+    margin-left: 10px;
 }
 
 footer {
+    margin-top: 20px;
     background-color: #77777733; 
     color: #FFFFFF;
     width: 100%;  /* Ocupa todo el ancho */
-    text-align: center;  /* Centra el texto */
+    text-align: center; 
     padding: 7px;
-    bottom: 0;
+    bottom: 0; /*lo posiciona en el borde inferior */
 }

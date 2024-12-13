@@ -1,79 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
     display: flex;
-    flex-direction: column;  /* Coloca los elementos en una columna */
-    min-height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+    flex-direction: column;  /*Los elementos se organizan en una colunma*/
+    min-height: 100%; 
 }
 
-/*//////////////////////////////////////*/
-/*//////////////////////////////////////*/
-/* RESETEO DE LA CONFIGURACIÓN BÁSICA */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/*//////////////////////////////////////*/
-/*//////////////////////////////////////*/
-/* ENCABEZADO */
-
-header {
-    display: flex;
-    justify-content: center;  /* Centra el título entre el logo y el nav */
-    align-items: center;  /* Centra verticalmente los elementos */
-    background-color: #002c54;
-    padding: 14px 20px;
-    color: white;
-}
-
-header h1 {
-    font-size: 24px;
-    color: white;
-    text-align: center;
-    flex: 1; /* El título ocupa el espacio disponible entre el logo y el nav */
-}
-
-.logo {
-    width: 50px; /* Tamaño del logo */
-    height: auto;
-}
-
-/* ////////////////////////////////////////// */
-/* ////////////////////////////////////////// */
-/* CONFIGURACIÓN DE LOS TÍTULOS Y EL TEXTO */
-
-h2 {
-    padding: 20px 0; /* Espacio arriba y abajo pero sin darselo a los laterales */
-    color: #000000;
-    text-align: center;
-}
-
-/* BARRA DE NAVEGACIÓN */
-nav {
-    display: flex;
-    justify-content: center;  /* Centra los enlaces */
-    gap: 20px; /* Añade espacio entre los enlaces */
-    background-color: #a5a5a5; 
-    padding: 5px 0;  /* Altura a la barra */
-}
-
-/* ESTILO DE LOS ELEMENTOS DE NAVEGACIÓN */
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-    background-color: #a5a5a5;
-}
-
-nav a:hover {
-    background-color: #666;
-}
-
-/*//////////////////////////////////////*/
-/*//////////////////////////////////////*/
-/* CONTENIDO DE LA PÁGINA WEB */ 
 
 .tablero {
     width: 1000px;
@@ -81,14 +11,13 @@ nav a:hover {
     margin: auto;
     display: flex;
     flex-direction: column;
-    border-collapse: collapse; /*Elimina el espacio entre celdas */
-    border: 2px solid black; /* Borde para verificar los límites */
-
+    margin-bottom:35px;
+    border-radius: 2;
 }
 
 .fila {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /*Organiza en filas*/
     text-align: center;
 }
 
@@ -96,17 +25,13 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px; /* Ajusta el tamaño según sea necesario */
-    height: 100px; /* Ajusta el tamaño según sea necesario */
-    /*Configuración texto*/
+    width: 100px; 
+    height: 100px;
     text-align: center;
-    font-size: 30px;
-    background-size: cover; /* Ancho y el alto del elemento ajustado. */
-}
+    font-size: 20px;
 
-/*/////////////////////////*/
-/* CONFIGURACIÓN ADICIONAL*/
-/*///////////////////////*/
+    background-size: cover; /* Ancho y el alto ajustado */
+}
 
 img{
     width: 100px;
@@ -114,62 +39,42 @@ img{
 }
 
 .blanca {
-    background-image: url(../imagenes/tableroFlex/blanca.png);
+    background-color: bisque;
 }
 
 .negra {
-    background-image: url(../imagenes/tableroFlex/negra.png);
+    background-color: rgb(88, 68, 42);
 }
 
-.horizontal1{
-    background-image: url(../imagenes/tableroFlex/horizontal1.png);
-
+.horizontal{
+    background-image: url(../imagenes/tableroGrid/horizontal.png);
+    color: #180e01;
+    font-weight: bold;
+    text-align: center; 
+    font-size: 30px;
+    
 }
-.horizontal2{
-    color: #e2cbac;
-    background-image: url(../imagenes/tableroFlex/horizontal2.png);
 
-}
-
-.vertical1{
-    color: #e2cbac;
-    background-image: url(../imagenes/tableroFlex/vertical1.png);
-}
-.vertical2{
-    color: #e2cbac;
-    background-image: url(../imagenes/tableroFlex/vertical2.png);
+.vertical{
+    background-image: url(../imagenes/tableroGrid/vertical.png);
+    color: #180e01;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .esquina1{
-    background-image: url(../imagenes/tableroFlex/esquina1.png);
+    background-image: url(../imagenes/tableroGrid/esquina1.png);
 }
 
 .esquina2{
-    background-image: url(../imagenes/tableroFlex/esquina2.png);
+    background-image: url(../imagenes/tableroGrid/esquina2.png);
 }
 
 .esquina3{
-    background-image: url(../imagenes/tableroFlex/esquina3.png);
+    background-image: url(../imagenes/tableroGrid/esquina3.png);
 }
 
 .esquina4{
-    background-image: url(../imagenes/tableroFlex/esquina4.png);
+    background-image: url(../imagenes/tableroGrid/esquina4.png);
 }
 
-/*//////////////////////////////////////*/
-/*//////////////////////////////////////*/
-/* BOTÓN PARA REGRESAR AL SUBIR ARRIBA DE LA PÁGINA PRINCIPAL */
-
-
-
-
-
-/* PIE DE PÁGINA */
-footer {
-    background-color: #77777733; 
-    color: #FFFFFF;
-    width: 100%;  /* Ocupa todo el ancho */
-    text-align: center;  /* Centra el texto */
-    padding: 7px;
-    margin-top: auto;  /* Asegura que el footer esté siempre al final */
-}

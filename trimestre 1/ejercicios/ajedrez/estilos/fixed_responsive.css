@@ -1,8 +1,3 @@
-* {
-
-    box-sizing: border-box;
-
-}
 
 img {
 
@@ -20,7 +15,6 @@ body {
     position: relative;
     margin: auto;
 }
-
 
 .blanco {
     background-color: rgb(218, 218, 188);

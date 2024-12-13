@@ -102,10 +102,11 @@ nav a:hover {
     font-weight: bold;
     text-align: center; 
     font-size: 30px;
+    
 }
 
 .vertical{
-    background-image: url(../imagenes/tableroGrid/ver.png);
+    background-image: url(../imagenes/tableroGrid/vertical.png);
     color: #180e01;
     font-weight: bold;
     font-size: 30px;
