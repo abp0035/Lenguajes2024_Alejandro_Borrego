@@ -1,0 +1,105 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+img {
+
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    text-align: center;
+}
+
+.tablero {
+    width: 40vw;
+    height: 40vh;
+    position: relative;
+    margin: auto;
+}
+
+
+.blanco {
+    background-color: rgb(218, 218, 188);
+}
+
+.negro {
+    background-color: rgb(70, 62, 62);
+}
+/*Medidas relativas para que sea responsivo*/
+.casilla {
+    width: 5.21vw;
+    height: 5.21vw;
+    position: absolute;
+}
+
+
+
+.columna1 {
+    left: 0;
+}
+/*Uso % de ancho del área visible de la página para que se mantenga siempre cuadrado*/
+.columna2 {
+    left: 5.21vw;
+}
+
+.columna3 {
+    left: 10.42vw;
+}
+
+.columna4 {
+    left: 15.63vw;
+}
+
+.columna5 {
+    left: 20.84vw;
+}
+
+.columna6 {
+    left: 26.05vw;
+}
+
+.columna7 {
+    left:  31.26vw;
+}
+
+.columna8 {
+    left: 36.47vw;
+}
+
+
+
+.fila1 {
+    top: 0;
+}
+
+.fila2 {
+    top: 5.21vw;
+}
+
+.fila3 {
+    top: 10.42vw;
+}
+
+.fila4 {
+    top: 15.63vw;
+}
+
+.fila5 {
+    top: 20.84vw;
+}
+
+.fila6 {
+    top: 26.05vw;
+}
+
+.fila7 {
+    top: 31.26vw;
+}
+
+.fila8 {
+    top: 36.47vw;
+}
