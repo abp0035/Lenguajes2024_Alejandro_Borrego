@@ -1,0 +1,37 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* Columnas para logo, título y nav */
+    align-items: center; 
+    background-color: rgb(93, 175, 196) ;
+    padding: 14px 20px;
+    color: white;
+    
+}
+
+header h1 {
+    font-size: 24px;
+    color: white;
+    text-align: center; 
+    grid-column: 2; /* Coloca el título en la segunda columna */
+}
+
+.logo {
+    width: 75px; 
+    height: 75px;
+}
+
+footer {
+    background-color: #77777733; 
+    color: #FFFFFF;
+    width: 100%;  /* Ocupa todo el ancho */
+    text-align: center;  /* Centra el texto */
+    padding: 7px;
+    margin-top: auto;  /* Asegura que el footer esté siempre al final */
+}

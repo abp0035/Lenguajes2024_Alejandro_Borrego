@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alejandro Borrego">
+    <title>Dados</title>
+</head>
+
+<style>
+    body {
+        background-color: beige;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: burlywood;
+        padding: 40px;
+        text-align: center;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: beige;
+        padding-top: 50px;
+        padding-bottom: 8px;
+    }
+
+    .contenedorDados {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        width: 800px;
+        height: 650px;
+        margin-top: 90px;
+        gap: 20px;
+    }
+
+    .dados {
+        width: 200px;
+        height: 200px;
+        margin: 0;
+        background-color: white;
+        border: 8px solid gray;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 0 3px black;
+    }
+
+    .caraDados {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    .circulo {
+        width: 45px;
+        height: 45px;
+        background-color: black;
+        border-radius: 50%;
+        margin-top: 2px;
+        margin-left: 2px;
+    }
+
+    .invisible {
+        background-color: transparent;
+    }
+
+    .sombra {
+        box-shadow: 4px 4px 4px #aaaaaa;
+    }
+
+    footer {
+    background-color: burlywood; 
+    width: 100%; 
+    text-align: center;  
+    padding: 15px;
+    bottom: 0;
+    position: absolute;
+}
+
+    
+
+</style>
+
+<body>
+    <header class="header">
+        <h1 id="inicioPagina">Prueba Dados</h1>
+    </header>
+    <main>
+        <div class="contenedorDados">
+            <div class="dados caraDados">
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo sombra"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+            </div>
+            <div class="dados caraDados">
+                <div class="circulo sombra"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo sombra"></div>
+            </div>
+            <div class="dados caraDados">
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo sombra"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo sombra"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo sombra"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+            </div>
+            <div class="dados caraDados">
+                <div class="circulo sombra"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo sombra"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo sombra"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo sombra"></div>
+            </div>
+            <div class="dados caraDados">
+                <div class="circulo sombra"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo sombra"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo sombra"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo sombra"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo sombra"></div>
+            </div>
+            <div class="dados caraDados">
+                <div class="circulo sombra"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo sombra"></div>
+                <div class="circulo sombra"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo sombra"></div>
+                <div class="circulo sombra"></div>
+                <div class="circulo invisible"></div>
+                <div class="circulo sombra"></div>
+            </div>
+        </div>
+    </main>
+
+ 
+
+    <footer>
+        <p>&copy;   Alejandro Borrego </p>
+    </footer>
+
+</body>

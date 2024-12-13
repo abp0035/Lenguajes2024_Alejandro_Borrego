@@ -1,0 +1,49 @@
+
+
+* {
+    height: 100%;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 29px;
+    padding: 10px;
+}
+
+p{
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px; /*Aunque en la tarea no tiene,
+     le aplico un poco de padding para que se pueda leer mejor*/
+}
+
+
+div.azul {
+    background-color: blue;
+    width: 50%; 
+    height: 50%; 
+    float: left;
+}
+
+div.rojo {
+    background-color: rgb(255, 0, 0);
+    width: 50%; 
+    height: 50%; 
+    float: right;
+}
+
+div.verde {
+    background-color: rgb(0, 255, 76);
+    width: 50%; 
+    height: 50%; 
+    float: left;
+}
+
+div.amarillo {
+    background-color: rgb(238, 255, 0);
+    width: 50%; 
+    height: 50%; 
+    float: right;
+}

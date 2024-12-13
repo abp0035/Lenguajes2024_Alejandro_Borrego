@@ -1,0 +1,45 @@
+* {
+    height: 100%;
+}
+
+h1 {
+    color: black(0, 0, 0);
+    text-align: left;
+    font-size: 33px;
+    padding: 20px;
+}
+
+p{
+    color: black;
+    text-align: left;
+    font-size: 24px;
+    padding: 20px;
+}
+
+
+div.azul {
+    background-color: blue;
+    width: 100%; 
+    height: 20%; 
+}
+
+div.rojo {
+    background-color: red;
+    width: 50%; 
+    height: 60%; 
+    float: left;
+}
+
+div.verde {
+    background-color: green;
+    width: 50%; 
+    height: 60%; 
+    float: right;
+}
+
+div.amarillo {
+    background-color: yellow;
+    width: 100%; 
+    height: 20%; 
+    clear: both;
+}
