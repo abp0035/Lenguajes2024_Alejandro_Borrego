@@ -7,67 +7,6 @@ body {
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-
-
-header {
-    display: grid;
-    grid-template-columns: auto 1fr auto; /* Columnas para logo, título y nav */
-    align-items: center; 
-    background-color: rgb(93, 175, 196) ;
-    padding: 14px 20px;
-    color: white;
-    
-}
-
-header h1 {
-    font-size: 24px;
-    color: white;
-    text-align: center; 
-    grid-column: 2; /* Coloca el título en la segunda columna */
-}
-
-.logo {
-    width: 75px; 
-    height: 75px;
-}
-
-
-
-h2 {
-    padding: 20px 0;
-    color: #000000;
-    text-align: center;
-}
-
-nav {
-    display: grid;
-    grid-auto-flow: column; /* Organiza los enlaces en  fila */
-    justify-content: center; 
-    gap: 20px; 
-    background-color:  rgb(168, 220, 233);
-    padding: 10px 0; 
-    margin-bottom: 20px;
-
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-    background-color: rgb(168, 220, 233);
-    text-align: center;
-}
-
-nav a:hover {
-    background-color: rgb(66, 121, 134);;
-}
-
 
 
 .tablero {
@@ -138,12 +77,3 @@ img{
 
 
 
-
-footer {
-    background-color:rgb(93, 175, 196);
-    color: #FFFFFF;
-    width: 100%; 
-    text-align: center; 
-    padding: 20px;
-    margin-top: 20px; 
-}
