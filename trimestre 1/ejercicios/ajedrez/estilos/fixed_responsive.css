@@ -8,10 +8,11 @@ nav {
     display: grid;
     grid-auto-flow: column; /* Organiza los enlaces */
     justify-content: center; 
-    gap: 20px; 
+    gap: 1em; 
     background-color:  rgb(168, 220, 233);
-    padding: 10px 0; 
-    margin-bottom: 20px;
+    padding: 0.5em 0; 
+    margin-bottom: 0.9em;
+    
 
 }
 
