@@ -18,7 +18,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none; /*Sin subrayado*/
-    padding: 1em;
+    padding: 0.5em;
     background-color: rgb(168, 220, 233);
     text-align: center;
 }
