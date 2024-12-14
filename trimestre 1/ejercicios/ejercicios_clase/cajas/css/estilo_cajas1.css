@@ -16,6 +16,22 @@ h1 {
     width: 100%;
     color: rgb(2, 2, 116); 
 }
+.texto2 {
+    text-align: left; 
+    height: 100%; 
+    width: 100%;
+    color: rgb(2, 2, 116); 
+    margin-left: 35px;
+}
+.texto3 {
+    height: 100%; 
+    width: 100%;
+    color: black(2, 2, 116); 
+    margin: 0; /*Para evitar margenes*/
+    top: 0; /*Para posicionarlo arriba*/
+    position: absolute;/*usamos position absolute al texto y relative a la caja*/
+}
+
 
 
 table {
@@ -42,6 +58,7 @@ td {
     border-left: 80px solid black;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
+    position: relative;
 }
 
 .caja3 {
