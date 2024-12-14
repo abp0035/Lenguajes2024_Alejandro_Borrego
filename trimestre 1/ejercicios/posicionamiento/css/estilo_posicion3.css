@@ -53,3 +53,19 @@ div.amarillo {
     float: right; /* Alinea el div amarillo a la derecha, debajo del verde */
 }
 
+
+
+.index {
+    text-align: center; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    
+}
+
+.index a {
+    color: black; 
+    background-color: rgb(93, 175, 196); 
+    padding: 10px 20px; /* Espacio interno  */
+    border-radius: 8px; 
+    text-decoration: none; 
+}

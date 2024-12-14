@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(247, 247, 227);
+}
+
+
+
+.contenedor_enlaces{
+    display: flex; 
+    flex-direction: row; /* Organiza los enlaces en fila */
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    
+}
+.enlace {
+    background-color: rgb(93, 175, 196); 
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    height: 80px;
+    width: 200px; 
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.enlace a{
+    text-decoration: none; 
+    color: black;
+
+}
+
+.enlace:hover {
+    background-color: rgb(45, 116, 134); 
+}
+
+.enlace:hover a {
+    color: #FFFFFF; 
+}
+

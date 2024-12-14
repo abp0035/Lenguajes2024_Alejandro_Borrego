@@ -47,3 +47,18 @@ div.amarillo {
     height: 50%; 
     float: right;
 }
+
+
+.index {
+    text-align: center; 
+    margin-top: 20px; 
+    
+}
+
+.index a {
+    color: black; 
+    background-color: rgb(93, 175, 196); 
+    padding: 10px 20px; /* Espacio interno  */
+    border-radius: 8px; 
+    text-decoration: none; 
+}

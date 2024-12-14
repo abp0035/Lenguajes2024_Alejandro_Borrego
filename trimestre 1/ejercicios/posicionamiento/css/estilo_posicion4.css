@@ -46,9 +46,25 @@ div.amarillo {
 
 div.naranja {
     background-color: orange;
-    width: 2100px;
+    width: 1888px;
     height: 200px; 
     bottom: 0;
     float: left;
     
+}
+
+
+.index {
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 50px;
+    
+}
+
+.index a {
+    color: black; 
+    background-color: rgb(93, 175, 196); 
+    padding: 10px 20px; /* Espacio interno  */
+    border-radius: 8px; 
+    text-decoration: none; 
 }
