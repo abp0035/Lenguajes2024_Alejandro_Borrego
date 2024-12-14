@@ -26,9 +26,18 @@ h1 {
 .texto3 {
     height: 100%; 
     width: 100%;
-    color: black(2, 2, 116); 
+    color: black; 
     margin: 0; /*Para evitar margenes*/
     top: 0; /*Para posicionarlo arriba*/
+    position: absolute;/*usamos position absolute al texto y relative a la caja*/
+}
+.texto4 {
+    height: 100%; 
+    width: 100%;
+    color: black; 
+    margin: 0; /*Para evitar margenes*/
+    top: 0; /*Para posicionarlo arriba*/
+    margin-left: 170px;
     position: absolute;/*usamos position absolute al texto y relative a la caja*/
 }
 
@@ -65,6 +74,7 @@ td {
     background-color: #f28b82;
     border: 40px groove #ff6658;
     border-radius: 40px;
+    position: relative;
 }
 
 .caja4 {
