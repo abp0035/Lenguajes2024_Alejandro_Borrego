@@ -33,7 +33,7 @@ td {
     padding: 0;
     border: 200px solid red;
     border-top-color: blue;
-    border-bottom-color: green;
+    border-bottom-color: rgb(72, 173, 72);
     border-right-color: yellow;
     width: 0px; /* Ajusta según necesites */
     height: 0px; /* Ajusta según necesites */
@@ -44,7 +44,7 @@ td {
     padding: 0;
     border: 200px solid red;
     border-top-color: blue;
-    border-bottom-color: green;
+    border-bottom-color: rgb(72, 173, 72);
     border-right-color: white;
     width: 0px; 
     height: 0px; 
@@ -64,7 +64,7 @@ td {
 
 
 .circulo1 {
-    background-color: green;
+    background-color: rgb(72, 173, 72);
     border-radius: 50%;
     font-size: 24px;
     height: 200px; 
@@ -72,19 +72,20 @@ td {
 }
 
 .circulo2 {
-    width: 100px;
-    height: 100px;
-    background-color: green;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(72, 173, 72);
     border-radius: 50%;
-    clip-path: inset(0 50% 0 0);
+    clip-path: inset(0 50% 0 0);/*Para el semicírulo en vertical*/
 }
 
 .circulo3 {
     width: 100px;
     height: 100px;
-    background-color: green;
+    background-color: rgb(72, 173, 72);
     border-radius: 50%;
-    clip-path: inset(50% 0 0 0);
+    clip-path: inset(50% 0 0 0);/*Para el semicírulo en horizontal*/
+
 }
 
 
