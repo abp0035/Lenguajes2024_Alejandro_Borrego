@@ -92,19 +92,19 @@ td {
 .index {
     text-align: center; 
     margin-top: 20px; 
+    margin-bottom: 50px;
 }
 
 .index a {
-    color: #ffffff; 
-    background-color: #002c54; 
+    color: black; 
+    background-color: rgb(93, 175, 196); 
     padding: 10px 20px; 
     border-radius: 8px; 
     text-decoration: none; /* Sin subrayado */
-    font-size: 18px; 
 }
 
 .index a:hover {
-    background-color: #0c9ace;  /*colo diferente para cuando se pasa el ratón por encima */ 
+    background-color: #0c9ace;  /*colorr diferente para cuando se pasa el ratón por encima */ 
    
 }
 

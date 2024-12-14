@@ -1,52 +1,47 @@
-
-header {
-    display: grid;
-    grid-template-columns: auto 1fr auto; /* Columnas para logo, título y nav */
-    align-items: center; 
-    background-color: rgb(93, 175, 196) ;
-    padding: 14px 20px;
-    color: white;
-    
-}
-
-header h1 {
-    font-size: 24px;
-    color: white;
-    text-align: center; 
-    grid-column: 2; /* Coloca el título en la segunda columna */
-}
-
-.logo {
-    width: 75px; 
-    height: 75px;
+body{
+    background-color: rgb(247, 247, 227);
+    margin:0;
 }
 
 
 
-
+.contenedor_enlaces{
+    display: flex; /* Activa Flexbox  */
+    flex-direction: column; /* Organiza los enlaces en columna */
+    justify-content: center; /* Centra los enlaces verticalmente */
+    align-items: center; /* Centra los enlaces horizontalmente */
+    min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura del viewport (área visible de la página)*/
+}
 .enlace {
     background-color: rgb(93, 175, 196); 
-    color: #ffffff;
+    color: black;
     font-weight: bold;
     font-size: 22px;
     height: 80px;
-    width: calc(25% - 45px); /* Ancho ajustado para cinco columnas */
+    width: 200px;
     margin: 10px;
     padding: 10px;
     display: flex;
-    align-items: center; /* Los elementos se alinea en el centro */
-    justify-content: center; /* El texto se alinea en el centro */
+    align-items: center; 
+    justify-content: center; 
     border-radius: 10px;
+
+}
+
+.enlace a{
+    text-decoration: none; /*Sin subrayado*/
+    color: black;
+
+}
+
+.enlace:hover {
+    background-color: rgb(45, 116, 134); /* Cambiar color de fondo al pasar el ratóm */
+}
+
+.enlace:hover a {
+    color: #FFFFFF; /* Cambiar color de la letra al pasar el ratón */
 }
 
 
 
 
-footer {
-    background-color: #77777733; 
-    color: #FFFFFF;
-    width: 100%;  /* Ocupa todo el ancho */
-    text-align: center;  /* Centra el texto */
-    padding: 7px;
-    margin-top: auto;  /* Asegura que el footer esté siempre al final */
-}

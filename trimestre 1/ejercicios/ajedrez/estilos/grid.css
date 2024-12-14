@@ -4,6 +4,28 @@ body {
     grid-template-rows: 1fr auto; /* Ajusta el contenido y el pie de página en filas */
     text-align: center;
 }
+nav {
+    display: grid;
+    grid-auto-flow: column; /* Organiza los enlaces */
+    justify-content: center; 
+    gap: 20px; 
+    background-color:  rgb(168, 220, 233);
+    padding: 10px 0; 
+    margin-bottom: 20px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none; /*Sin subrayado*/
+    padding: 5px;
+    background-color: rgb(168, 220, 233);
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgb(66, 121, 134);;
+}
 
 
 

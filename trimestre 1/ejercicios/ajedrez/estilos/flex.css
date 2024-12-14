@@ -3,7 +3,28 @@ body {
     flex-direction: column;  /*Los elementos se organizan en una colunma*/
     min-height: 100%; 
 }
+nav {
+    display: grid;
+    grid-auto-flow: column; /* Organiza los enlaces */
+    justify-content: center; 
+    gap: 20px; 
+    background-color:  rgb(168, 220, 233);
+    padding: 10px 0; 
+    margin-bottom: 20px;
 
+}
+
+nav a {
+    color: white;
+    text-decoration: none; /*Sin subrayado*/
+    padding: 5px;
+    background-color: rgb(168, 220, 233);
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgb(66, 121, 134);;
+}
 
 .tablero {
     width: 1000px;

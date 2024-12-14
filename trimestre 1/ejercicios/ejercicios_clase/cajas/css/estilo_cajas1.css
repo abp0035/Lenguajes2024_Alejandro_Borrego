@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-
     width: 1200px; 
     margin: auto; 
 }
@@ -98,22 +97,18 @@ td {
 
 
 
-
-
-
-
 .index {
     text-align: center; 
     margin-top: 20px; 
+    margin-bottom: 50px;
 }
 
 .index a {
-    color: #ffffff; 
-    background-color: #002c54; 
-    padding: 10px 20px; /* Espaciado interno  */
-    border-radius: 8px; /* Borde redondeado */
+    color: black; 
+    background-color: rgb(93, 175, 196); 
+    padding: 10px 20px; /* Espaciao interno  */
+    border-radius: 8px; 
     text-decoration: none; 
-    font-size: 18px; 
 }
 
 
