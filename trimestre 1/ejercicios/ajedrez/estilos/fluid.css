@@ -33,6 +33,12 @@ nav a:hover {
     float: left;
 }
 
+.clear {
+    clear: left;
+}
+
+
+
 img{
     width: 100px;
     height: 100px;
@@ -81,9 +87,5 @@ img{
 .esquina4{
     background-image: url(../imagenes/tableroFluid/esquina3.png);
     background-size: cover; 
-}
-
-.clear {
-    clear: left;
 }
 
