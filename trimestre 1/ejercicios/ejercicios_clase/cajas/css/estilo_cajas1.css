@@ -35,12 +35,27 @@ h1 {
     height: 100%; 
     width: 100%;
     color: black; 
-    margin: 0; /*Para evitar margenes*/
-    top: 0; /*Para posicionarlo arriba*/
+    margin: 0; 
+    top: 0; 
     margin-left: 170px;
-    position: absolute;/*usamos position absolute al texto y relative a la caja*/
+    position: absolute;
 }
-
+.texto5 {
+    height: 100%; 
+    width: 100%;
+    color: black; 
+    margin: 0; 
+    top: 0; 
+    position: absolute;
+}
+.texto6 {
+    height: 100%; 
+    width: 100%;
+    color: black; 
+    top: 80px; 
+    text-align: center;
+    position: absolute;
+}
 
 
 table {
@@ -80,17 +95,18 @@ td {
 .caja4 {
     background-color: #a0d995;
     border: 35px inset #006400;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: relative;
 }
 
 .caja5 {
     background-color: peachpuff;
-    border: 10px dashed orange;
+    border: 5px dashed orange;
     border-radius: 50%;
-    font-size: 24px;
-    height: 200px; 
-    width: 200px; 
+    font-size: 28px;
+    height: 150px; 
+    width: 150px; 
 }
 
 .interrogante {
@@ -108,18 +124,21 @@ td {
 .caja7 {
     background: linear-gradient(to top, yellow, red);
     border: 10px solid rgb(255, 0, 0);
+    position: relative;
 }
 
 .caja8 {
     background-color: white;
     border: 35px solid;
     border-color: blue red green yellow;
+    position: relative;
 }
 
 .caja9 {
     background-color: white;
     border: 30px double purple;
     border-radius: 40px;
+    position: relative;
 }
 
 
