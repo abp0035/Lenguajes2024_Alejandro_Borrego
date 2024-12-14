@@ -1,7 +1,6 @@
 
 body{
     font-family: Arial, sans-serif; /* Fuente principal */
-
 }
 * {
     margin: 0;
@@ -18,6 +17,7 @@ header {
     background-color: rgb(93, 175, 196) ;
     padding: 14px 20px;
     color: white;
+    margin: 0;
 }
 
 header h1 {
