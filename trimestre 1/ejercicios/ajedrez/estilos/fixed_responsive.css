@@ -39,11 +39,11 @@ body {
     margin: auto;
 }
 
-.blanco {
+.blanca {
     background-color: rgb(218, 218, 188);
 }
 
-.negro {
+.negra {
     background-color: rgb(70, 62, 62);
 }
 /*Medidas relativas para que el tablero sea responsivo*/
