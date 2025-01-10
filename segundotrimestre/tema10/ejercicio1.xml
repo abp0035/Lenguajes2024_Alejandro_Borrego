@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="ejercicio1.css"?> 
+
 <!DOCTYPE catalogo [
     <!ELEMENT catalogo (libro+)>
-    <!ELEMENT libro (titulo, autor, editorial, anio, genero)>
+    <!ELEMENT libro (titulo, autor, editorial, anio, genero,paginas,precio,     rtada
     <!ELEMENT titulo (#PCDATA)>
     <!ELEMENT autor (#PCDATA)>
     <!ELEMENT editorial (#PCDATA)>
     <!ELEMENT anio (#PCDATA)>
     <!ELEMENT genero (#PCDATA)>
+    <!ELEMENT paginas (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT portada (#PCDATA)>
+    <!ATTLIST portada foto CDATA #REQUIRED>
 ]>
 
 <catalogo>
@@ -14,15 +20,22 @@
 <titulo>Nosotros</titulo>
 <autor>Zamiatin</autor>
 <editorial>Editorial 1</editorial>
-<anio>1920</anio>
-<genero>Distópico</genero>
+<anio>año: 1920</anio>
+<genero>Género: Distópico</genero>
+<paginas>Pág: 210</paginas>
+<precio>10€</precio>
+<portada foto="nosotros"></portada>
 </libro>
+
 <libro>
 <titulo>En nombre del viento</titulo>
 <autor>Patrik</autor>
 <editorial>Editorial 2</editorial>
 <anio>1999</anio>
-<genero>Distópico</genero>
+<genero>Fantasía</genero>
+<paginas>800</paginas>
+<precio>15€</precio>
+<portada foto="viento"></portada>
 </libro>
 
 </catalogo>
