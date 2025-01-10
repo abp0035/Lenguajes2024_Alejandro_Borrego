@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href=".css"?> 
+<!DOCTYPE pagina [
+    <!ELEMENT pagina (encabezado, cuerpo, pie)>
+    <!ELEMENT encabezado (titulo, introduccion)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT introduccion (#PCDATA)>
+    <!ELEMENT cuerpo (seccion+)>
+    <!ELEMENT seccion (titulo, contenido)>
+    <!ELEMENT contenido (#PCDATA)>
+    <!ELEMENT pie (autor, nota)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT nota (#PCDATA)>
+]>
+
+<pagina>
+    <encabezado>
+        <titulo>Resumen Tema 10</titulo>
+        <introduccion></introduccion>
+    </encabezado>
+
+    <cuerpo>
+        <seccion>
+            <titulo></titulo>
+            <contenido></contenido>
+        </seccion>
+        <seccion>
+            <titulo></titulo>
+            <contenido></contenido>
+        </seccion>
+    </cuerpo>
+
+    <pie>
+        <autor>Alejandro Borrego</autor>
+        <nota>Trabajo de clase sobre XML</nota>
+    </pie>
+</pagina>

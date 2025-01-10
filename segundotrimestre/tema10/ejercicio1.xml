@@ -40,50 +40,8 @@
 <paginas>800</paginas>
 <precio>15€</precio>
 <portada foto="viento"></portada>
+<resumen></resumen>
 </libro>
 
-<libro>
-<titulo>En nombre del viento</titulo>
-<autor>Patrik</autor>
-<editorial>Editorial 2</editorial>
-<anio>1999</anio>
-<genero>Fantasía</genero>
-<paginas>800</paginas>
-<precio>15€</precio>
-<portada foto="viento"></portada>
-</libro>
-
-<libro>
-<titulo>En nombre del viento</titulo>
-<autor>Patrik</autor>
-<editorial>Editorial 2</editorial>
-<anio>1999</anio>
-<genero>Fantasía</genero>
-<paginas>800</paginas>
-<precio>15€</precio>
-<portada foto="viento"></portada>
-</libro>
-
-<libro>
-<titulo>En nombre del viento</titulo>
-<autor>Patrik</autor>
-<editorial>Editorial 2</editorial>
-<anio>1999</anio>
-<genero>Fantasía</genero>
-<paginas>800</paginas>
-<precio>15€</precio>
-<portada foto="viento"></portada>
-</libro>
-
-<libro>
-<titulo>En nombre del viento</titulo>
-<autor>Patrik</autor>
-<editorial>Editorial 2</editorial>
-<anio>1999</anio>
-<genero>Fantasía</genero>
-<paginas>800</paginas>
-<precio>15€</precio>
-<portada foto="viento"></portada>
-</libro>
 
 </catalogo>
