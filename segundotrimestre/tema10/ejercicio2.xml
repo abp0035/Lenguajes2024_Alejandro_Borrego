@@ -1,0 +1,20 @@
+<!DOCTYPE agenda [
+    <!ELEMENT agenda (contacto+)>
+    <!ELEMENT contacto (nombre, telefono, email?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!-- ¿Dirección,?-->
+]>
+
+<agenda>
+    <contacto>
+        <nombre>Juan Pérez</nombre>
+        <telefono>123456789</telefono>
+        <email>juan.perez@example.com</email>
+    </contacto>
+    <contacto>
+        <nombre>María López</nombre>
+        <telefono>987654321</telefono>
+    </contacto>
+</agenda>

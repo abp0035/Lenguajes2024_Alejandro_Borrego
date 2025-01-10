@@ -1,0 +1,20 @@
+<!DOCTYPE dni [
+    <!ELEMENT dni (numero, nombre, apellidos, fechaNac, lugarNac, direccion, sexo)>
+    <!ELEMENT numero (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT fechaNac (#PCDATA)>
+    <!ELEMENT lugarNac (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT sexo (#PCDATA)>
+]>
+
+<dni>
+    <numero>12345678Z</numero>
+    <nombre>Laura</nombre>
+    <apellidos>García Fernández</apellidos>
+    <fechaNac>1990-05-14</fechaNac>
+    <lugarNac>Madrid</lugarNac>
+    <direccion>Calle Falsa 123, Madrid</direccion>
+    <sexo>F</sexo>
+</dni>

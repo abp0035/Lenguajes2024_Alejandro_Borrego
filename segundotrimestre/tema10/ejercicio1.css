@@ -1,26 +1,26 @@
+
 *{
     margin: 0px; 
     display:block;
     box-sizing: border-box; 
    }
-
-   catalogo {
-    background-color: rgb(122, 122, 94); 
+catalogo {
+    background-color: #002E4C; 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 libro{
-    background-color: #f1f1f1;
-    opacity: 0.8;
-    width: 40vw;
-    height: 33vw;
-    margin: 2vw;
-    padding: 1vw;
-    font-size: 1.2em;
-    overflow: auto;
-  }
-  titulo{
+        background-color: #f1f1f1;
+        opacity: 0.8;
+        width: 40vw;
+        height: 30vw;
+        margin: 2vw;
+        padding: 1vw;
+        font-size: 1.2em;
+        overflow: auto;
+      }
+titulo{
     font-size: 2em;
     padding: .1em;
     text-align: center;
@@ -30,23 +30,8 @@ autor {
     color: rgb(214, 137, 36);
     font-size: 1.3em;
 }
-editorial{
-    font-weight: 100;
-    font-size: .8em;
-    margin: .5em;
-    float:left;
-}
-anio{
-    font-weight: 100;
-    font-size: .8em;
-    margin: .5em;
-}
-genero{
-    font-weight: 100;
-    font-size: .8em;
-    margin: .5em;
-}
-paginas{
+
+paginas,editorial,genero,precio,anio{
     font-weight: 100;
     font-size: .8em;
     margin: .5em;
@@ -57,8 +42,6 @@ portada{
     float: right;
     margin:  .5em;
 }
-
-
 portada[foto="nosotros"]{
     background-image: url("../imagenes/nosotros.png");
     background-size: cover;

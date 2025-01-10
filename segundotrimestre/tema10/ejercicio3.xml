@@ -1,0 +1,19 @@
+<!DOCTYPE menu [
+    <!ELEMENT menu (plato+)>
+    <!ELEMENT plato (nombre, descripcion?, precio)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+]>
+
+<menu>
+    <plato>
+        <nombre>Paella </nombre>
+        <descripcion>Arroz con mariscos y carne</descripcion>
+        <precio>18.50€</precio>
+    </plato>
+    <plato>
+        <nombre>Gazpacho</nombre>
+        <precio>6.00€</precio>
+    </plato>
+</menu>
