@@ -13,21 +13,98 @@
     <!ELEMENT nota (#PCDATA)>
 ]>
 
+
+<!-- MAL ERA EN HTML RECORDAR REHACER-->
 <pagina>
     <encabezado>
         <titulo>Resumen Tema 10</titulo>
-        <introduccion></introduccion>
+        <introduccion>Se utiliza ampliamente en aplicaciones web, servicios web y bases de datos para la transferencia y 
+        almacenamiento de información. Ha sido importante en la evolución de estándares web</introduccion>
     </encabezado>
 
     <cuerpo>
+
+        <seccion>
+            <titulo>Lenguaje de Marcado Extensible</titulo>
+            <contenido>Lenguaje de propósito general, el cual, es compartir datos a través de diferentes sistemas (internet). Es similar a HTML,sin embargo, no está predefinido, las etiquetas se definen.
+            </contenido>
+        </seccion>
+
+        <seccion>
+            <titulo>Resumen</titulo>
+            <contenido> Versión más estricta de HTML (Las etiquetas deben cerrarse correctamente y los documentos han de estar bien formados)
+            Es compatible con html y css. 
+            Tiene el mismo uso que html y su extensión es .xhtml
+            Sigue las reglas de xml
+            En la práctica html sigue siendo lo más utlizado</contenido>
+        </seccion>
+
+        <seccion>
+            <titulo>Características</titulo>
+            <contenido>
+            Consta de dos partes: prólogo y cuerpo
+            Usa espacios de nombres para evitar ambigüedades
+            Sintaxis como la de html
+            Utiliza esquemas en forma de árbol con una única raíz
+            Los documentos se validan
+            </contenido>
+        </seccion>
+
+        <seccion>
+            <titulo>¿Qué no es?</titulo>
+            <contenido>
+            XML no es ni pretende ser sustituto de HTML
+            No es un gestor de base de datos
+            No es un estándar de comunicación
+            No es un lenguaje de programación
+            </contenido>
+        </seccion>
+
+        <seccion>
+            <titulo>Estructura y sintaxis</titulo>
+            <contenido>
+            
+            </contenido>
+        </seccion>
+
+        <seccion>
+            <titulo>Elementos</titulo>
+            <contenido>
+            Tipos de cardinalidad:
+            ? aparece de 0 a 1 veces.
+            * aparece de 0 a N veces.
+            + aparece de 1 a N veces.
+
+            </contenido>
+        </seccion>
+
+        <seccion>
+            <titulo>Atributos</titulo>
+            <contenido> Información adicional de los elementos.
+            </contenido>
+        </seccion>
+
+        <seccion>
+            <titulo>Entidades</titulo>
+            <contenido>
+            
+            </contenido>
+        </seccion>
+
         <seccion>
             <titulo></titulo>
-            <contenido></contenido>
+            <contenido>
+            
+            </contenido>
         </seccion>
+
         <seccion>
-            <titulo></titulo>
-            <contenido></contenido>
+            <titulo>Enlaces al resto de ejercicios</titulo>
+            <contenido>
+            
+            </contenido>
         </seccion>
+
     </cuerpo>
 
     <pie>

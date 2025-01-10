@@ -1,0 +1,18 @@
+<!DOCTYPE vehiculo [
+    <!ELEMENT vehiculo (marca, modelo, anio, matricula, combustible, potencia)>
+    <!ELEMENT marca (#PCDATA)>
+    <!ELEMENT modelo (#PCDATA)>
+    <!ELEMENT anio (#PCDATA)>
+    <!ELEMENT matricula (#PCDATA)>
+    <!ELEMENT combustible (#PCDATA)>
+    <!ELEMENT potencia (#PCDATA)>
+]>
+
+<vehiculo>
+    <marca>Ford</marca>
+    <modelo>Focus</modelo>
+    <anio>2024</anio>
+    <matricula>4234HJC</matricula>
+    <combustible>Gasolina</combustible>
+    <potencia>120CV</potencia>
+</vehiculo>

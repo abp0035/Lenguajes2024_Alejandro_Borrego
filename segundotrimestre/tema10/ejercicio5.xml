@@ -1,0 +1,16 @@
+<!DOCTYPE tarjeta [
+    <!ELEMENT tarjeta (numero, titular, fechaVencimiento, tipo, entidadEmisora)>
+    <!ELEMENT numero (#PCDATA)>
+    <!ELEMENT titular (#PCDATA)>
+    <!ELEMENT fechaVencimiento (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT entidadEmisora (#PCDATA)>
+]>
+
+<tarjeta>
+    <numero>123456789</numero>
+    <titular>Ana Pérez</titular>
+    <fechaVencimiento>2026-12</fechaVencimiento>
+    <tipo>Visa</tipo>
+    <entidadEmisora>Banco Popular</entidadEmisora>
+</tarjeta>
