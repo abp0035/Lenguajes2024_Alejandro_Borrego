@@ -5,7 +5,7 @@
     box-sizing: border-box; 
    }
 catalogo {
-    background-color: #002E4C; 
+    background-color: rgb(126, 126, 99); 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -35,6 +35,7 @@ paginas,editorial,genero,precio,anio{
     font-weight: 100;
     font-size: .8em;
     margin: .5em;
+    float: left;
 }
 portada{
     width: 50%;
