@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE catalogo [
+    <!ELEMENT catalogo (libro+)>
+    <!ELEMENT libro (titulo, autor, editorial, anio, genero)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT anio (#PCDATA)>
+    <!ELEMENT genero (#PCDATA)>
+]>
+
+<catalogo>
+<libro>
+<titulo>Nosotros</titulo>
+<autor>Zamiatin</autor>
+<editorial>Editorial 1</editorial>
+<anio>1920</anio>
+<genero>Distópico</genero>
+</libro>
+<libro>
+<titulo>En nombre del viento</titulo>
+<autor>Patrik</autor>
+<editorial>Editorial 2</editorial>
+<anio>1999</anio>
+<genero>Distópico</genero>
+</libro>
+
+</catalogo>
