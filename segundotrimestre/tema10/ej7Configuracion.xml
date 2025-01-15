@@ -1,0 +1,8 @@
+
+<!DOCTYPE configuracion[
+<!ELEMENT configuracion (nombre,version,autor,host,puerto,usuario,contraseña,nombreBDD,tema, idioma,preferencias)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT version (#PCDATA)>
+
+
+]>
