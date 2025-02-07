@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alejandro Borrego">
+    <link rel="stylesheet" href="../tema11/index.css">
+    <link rel="shortcut icon" href="">
+</head>
+
+<body>
+    <header>
+        <h1 id="inicioPagina">Tema 11: XML Schema</h1>
+    </header>
+    <br>
+    <div>
+        <p>XML es un lenguaje de marcado de propósito general definido por
+            el W3C. El propósito principal del lenguaje es compartir datos a través de diferentes sistemas,como Internet
+        </p>
+    </div>
+
+    <main>
+        <div class="cuerpo">
+            <article class="cuadrado">
+                <h1 class="titulo">Introducción</h3>
+            
+                    <li>Se trata de una versión más estricta y modular de HTML. Lo que significa que las etiquetas deben cerrarse
+                        correctamente y los documentos deben estar bien formados.</li>
+                    <li>Sigue las reglas de XML para definir la estructura y el contenido de las páginas web.</li>
+                    <li>Compatible con HTML y CSS</li>
+                    <li>El mismo uso que HTML y su extensión es .XHTML</li>
+              
+            </article>
+            <article class="cuadrado">
+                <h1 class="titulo">XML Extensible Markup Language</h3>
+                <p><b>Características</b></p>
+                <ul>
+                    <li>Lenguaje de estructura libre. No está predefinido, es decir, Las etiquetas se definen.</li>
+                    <li>Consta de dos partes: Prólogo y Cuerpo.</li>
+                    <li>Su sintaxis es como la de HTML.</li>
+                    <li>Utiliza esquemas en forma de árbol con una única raíz.</li>
+                    <li>Los documentos se validan.</li>
+                    <li>No es como HTML. Si no está bien formado dará error.</li>
+                    <li>No cuentan los espacios en blanco.</li>
+
+                </ul>
+            </article>
+        </div>
+        <div class="cuerpo">
+            <article class="cuadrado">
+                <h1 class="titulo">Estructura y sintaxis de XML </h3>
+                <p>Va a constar de un prólogo y cuerpo:</p>
+                <p><b>Prólogo:</b></p>
+                <ul>
+                    <li>Declaración XML</li>
+                    <li>Información del documento</li>
+                    <li>Espacio de nombres</li>
+                    <li>Hojas de estilo XSLT y  CSS</li>
+                </ul>
+                <p><b>Cuerpo:</b></p>
+                <ul>
+                    <li>Árbol de contenido</li>
+                    <li>Una sola raíz</li>
+                </ul>
+            </article>
+            <article class="cuadrado">
+                <h1 class="titulo">Sintaxis XML</h3>
+                <p><b><u>Elemento:</u></b></p>
+                <ul>
+                    <li>Es la unidad fundamental</li>
+                    <li>Etiqueta de apertura y cierre</li>
+                    <li>Atributo, valor</li>
+                    <li>Contenido</li>
+                </ul>
+                <p><b><u>Elementos vacíos</u></b></p>
+                <ul>
+                    <li>&lt;elemento/&gt;</li>
+                    <li>&lt;elemento&gt;&lt;/elemento&gt;</li>
+                </ul>
+            </article>
+        </div>
+       
+        <div class="cuerpo">
+            <article class="cuadrado">
+                <h3 class="titulo">Validación con DTD</h3>
+                <p><b><u>Un DTD describe la estructura del documento:</u></b></p>
+                <ul>
+                    <li>Elementos</li>
+                    <li>Orden</li>
+                </ul>
+                <p><b><u>Ubicación de DTD:</u></b></p>
+                <ul>
+                    <li>Interno. En el propio documento</li>
+                    <li>Externo. Referenciado por URL</li>
+                    <li>Mixto</li>
+                </ul>
+                <p><b><u>Tipos de elementos que se utilizan en DTD:</u></b></p>
+                <ul>
+                    <li>Elemento &lt;!ELEMENT&gt;</li>
+                    <li>Atributos &lt;!ATTLIST&gt;</li>
+                    <li>Entidades &lt;!ENTITY&gt;</li>
+                </ul>
+            </article>
+            <article class="cuadrado">
+                <h3 class="titulo">1. Elemento &lt;!ELEMENT&gt;</h3>
+                <ul>
+                    <li>&lt;!ELEMENT elemento (hijo1, hijo2 ..)&gt;</li>
+                    <li>&lt;!ELEMENT elemento (#PCDATA)&gt;</li>
+                </ul>
+                <p><b><u>Cardinalidad:</u></b></p>
+                <ul>
+                    <li>?: El elemento aparece 0 o 1 vez.</li>
+                    <li>*: El elemento aparece 0 a N veces.</li>
+                    <li>+: El elemento aparece 1 a N veces.</li>
+                </ul>
+                <p><b><u>Secuencia:</u></b></p>
+                <ul>
+                    <li>X, Y: Indica que el elemento X tiene que aparecer a continuación de Y.</li>
+                    <li>(X|Y): Indica que aparece el elemento X o el elemento Y, pero no los dos al mismo tiempo.</li>
+                </ul>
+                <p><b><u>Combinación:</u></b></p>
+                <ul>
+                    <li>Se pueden combinar los símbolos de secuencia y los de cardinalidad.</li>
+                </ul>
+            </article>
+        </div>
+        <div class="diseño">
+            <article class="cuadrado">
+                <h3 class="titulo">2. Atributos &lt;!ATTLIST&gt;</h3>
+                <p><b><u>Información adicional de los elementos:</u></b></p>
+                <p>&lt;!ATTLIST elemento atributo tipo valor&gt;. <br> Ejemplo: &lt;!ATTLIST capitulo paginas CDATA
+                    #REQUIRED&gt;</p>
+                <p><b><u>Tipos</u></b></p>
+                <table>
+                    <tr>
+                        <th>Propiedad</th>
+                        <th>Significado</th>
+                    </tr>
+                    <tr>
+                        <td>CDATA</td>
+                        <td>Cadena de texto. Valor alfanumérico.</td>
+                    </tr>
+                    <tr>
+                        <td>Enumeraciones</td>
+                        <td>Permite indicar varios valores.</td>
+                    </tr>
+                    <tr>
+                        <td>ENTITY</td>
+                        <td>Entidad definida previamente.</td>
+                    </tr>
+                    <tr>
+                        <td>ENTITIES</td>
+                        <td>Conjunto de entidades.</td>
+                    </tr>
+                    <tr>
+                        <td>IDREF</td>
+                        <td>Se referencia el identificador de otro elemento.</td>
+                    </tr>
+                    <tr>
+                        <td>IDREFS</td>
+                        <td>Referencia a un conjunto de identificadores.</td>
+                    </tr>
+                    <tr>
+                        <td>ID</td>
+                        <td>Identificador único para identificar elementos.</td>
+                    </tr>
+                    <tr>
+                        <td>NOTATION</td>
+                        <td>Indica datos que no son XML.</td>
+                    </tr>
+                    <tr>
+                        <td>NMToken</td>
+                        <td>Un nombre sin espacios en blanco.</td>
+                    </tr>
+                    <tr>
+                        <td>NMtokens</td>
+                        <td>Lista de nombres.</td>
+                    </tr>
+                </table>
+            </article>
+            <article class="cuadrado"><br>
+                <p><b><u>Valores:</u></b></p>
+                <table>
+                    <tr>
+                        <th>Propiedad</th>
+                        <th>Significado</th>
+                    </tr>
+                    <tr>
+                        <td>Valor</td>
+                        <td>El valor por defecto del atributo entre comillas.</td>
+                    </tr>
+                    <tr>
+                        <td>#REQUIRED</td>
+                        <td>El atributo es obligatorio.</td>
+                    </tr>
+                    <tr>
+                        <td>#IMPLIED</td>
+                        <td>El atributo es opcional.</td>
+                    </tr>
+                    <tr>
+                        <td>#FIXED valor</td>
+                        <td>El atributo es obligatorio y se le asigna un valor por defecto que es el único valor que
+                            puede tener.</td>
+                    </tr>
+                </table>
+                <p><b><u>Ejemplo DTD:</u></b></p>
+                <ul>
+                    <li>Versión</li>
+                    <li>Codificación</li>
+                    <li>standalone</li>
+                    <li>DTD es externo y privado</li>
+                    <li>Raíz: biblioteca</li>
+                    <li>Elemento libros (puede haber más de uno)</li>
+                    <li>Elemento nombre (solo uno y obligatorio)</li>
+                    <li>Elemento autor (puede haber más de uno)</li>
+                    <li>Elemento Editorial se puede omitir</li>
+                    <li>El precio y precio_con_iva (aparecerá uno de los dos)</li>
+                </ul>
+            </article>
+        </div>
+        <div class="diseño">
+            <article class="recuadrotexto">
+                <h3 class="minititulo5">3. Entidades &lt;!ENTITY&gt;</h3>
+                <p><b><u>Entidad declaración de una constante para usar en el documento:</u></b></p>
+                <table>
+                    <tr>
+                        <th>Entidad</th>
+                        <th>Carácter</th>
+                        <th>Descripción</th>
+                    </tr>
+                    <tr>
+                        <td>&lt;</td>
+                        <td>&lt;</td>
+                        <td>Menor que</td>
+                    </tr>
+                    <tr>
+                        <td>&gt;</td>
+                        <td>&gt;</td>
+                        <td>Mayor que</td>
+                    </tr>
+                    <tr>
+                        <td>&amp;</td>
+                        <td>&amp;</td>
+                        <td>Ampersand</td>
+                    </tr>
+                    <tr>
+                        <td>&quot;</td>
+                        <td>&quot;</td>
+                        <td>Comilla doble</td>
+                    </tr>
+                    <tr>
+                        <td>&apos;</td>
+                        <td>&apos;</td>
+                        <td>Apóstrofe (o comilla sencilla)</td>
+                    </tr>
+                </table>
+                <br>
+                <figure class="imagen">
+                    <img  src="imagenes/xml.png" alt="Descripción de la imagen" />
+                </figure>
+                <figcaption class="imagen">Archivo XML</figcaption><br>                  
+            </article>
+            <article class="recuadrotexto">
+                <h3 class="minititulo6">Puntos clave que no se pueden ignorar</h3>
+                <p><b><u>¿Qué es el lenguaje XML? Usos y características:</u></b></p>
+                <p>XML es un lenguaje de marcado utilizado para almacenar y transportar datos de manera estructurada. Es
+                    flexible, legible para humanos y máquinas, y se usa para el intercambio de datos entre sistemas.</p>
+
+                <p><b><u>Estructura de un documento XML y sintaxis de un elemento XML:</u></b></p>
+                <p>Un documento XML tiene un prologo, un elemento raíz y elementos con atributos. Ejemplos:<br>&lt;libro
+                    titulo="XML básico"&gt;<br>&lt;autor&gt;Juan Pérez&lt;/autor&gt;<br>&lt;anio&gt;2023&lt;/anio&gt;<br>&lt;/libro&gt;</p>
+                <p><b><u>¿Qué es la validación de un documento XML? ¿Qué formas hay?</u></b></p>
+                <p>La validación asegura que el XML cumple con las reglas definidas. Se puede hacer por DTD o XML
+                    Schema.</p>
+                <p><b><u>Validación DTD:</u></b></p>
+                <p>La validación DTD verifica que el documento cumpla con las reglas definidas en un archivo DTD.</p>
+            </article>
+        </div>
+    </main>
+    <br>
+    <br>
+
+
+    <footer>
+        <p>&copy; Alejandro Borrego Pérez de Algaba </p>
+    </footer>
+
+</body>
+
+
+</html>
