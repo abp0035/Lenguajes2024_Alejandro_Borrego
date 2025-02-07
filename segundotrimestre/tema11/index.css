@@ -52,13 +52,12 @@ main{
 
 .titulo {
     background-color: rgb(93, 175, 196);
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     font-size: 1.5rem;
     color: #ffffff;
     margin-bottom: 15px;
     text-align: center;
 }
-
 
 table {
     border-collapse: collapse;
@@ -78,10 +77,6 @@ p {
     color: #333;
     text-align: justify; 
 }
-
-
-
-
 
 
 footer p{
