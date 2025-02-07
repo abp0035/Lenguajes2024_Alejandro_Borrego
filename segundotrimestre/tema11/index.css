@@ -31,10 +31,9 @@ main{
     background-color: #ffffff; 
 }
 
-
 .cuerpo {
     display: flex;
-    justify-content: space-between; /*  distribuir los bloques equilibradamente */
+    justify-content: space-between; /* distribuir los bloques equilibradamente*/
     position: relative;
     gap: 20px; 
     padding: 20px;
@@ -73,18 +72,13 @@ table {
   }
 
 p {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: Arial;
+    line-height: 1.5;
     font-size: 1rem;
     color: #333;
     text-align: justify; 
 }
 
-.imagen {
-    display: flex;
-  justify-content: center; 
-  align-items: center; 
-}
 
 
 
