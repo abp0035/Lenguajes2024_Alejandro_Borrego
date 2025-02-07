@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?xml-stylesheet type="text/css" href="ejercicio1.css"?> 
-
 <!DOCTYPE catalogo [
     <!ELEMENT catalogo (libro+)>
-    <!ELEMENT libro (titulo, autor, editorial, anio, genero,paginas,precio,portada,resumen)>
+    <!ELEMENT libro (titulo, autor, editorial, anio, genero,paginas,precio,resumen)>
     <!ELEMENT titulo (#PCDATA)>
     <!ELEMENT autor (#PCDATA)>
     <!ELEMENT editorial (#PCDATA)>
@@ -11,10 +9,7 @@
     <!ELEMENT genero (#PCDATA)>
     <!ELEMENT paginas (#PCDATA)>
     <!ELEMENT precio (#PCDATA)>
-    <!ELEMENT portada (#PCDATA)>
-    <!ATTLIST portada foto CDATA #REQUIRED>
     <!ELEMENT resumen (#PCDATA)>
-    <!ENTITY estado "agotado">
 ]>
 
 <catalogo>
@@ -26,7 +21,6 @@
 <genero>Género: Distópico</genero>
 <paginas>Pág: 210</paginas>
 <precio>10€</precio>
-<portada foto="nosotros"></portada>
 <resumen></resumen>
 
 </libro>
@@ -39,7 +33,17 @@
 <genero>Fantasía</genero>
 <paginas>800</paginas>
 <precio>15€</precio>
-<portada foto="viento"></portada>
+<resumen></resumen>
+</libro>
+
+<libro>
+<titulo>El camino de los reyes</titulo>
+<autor>Brandon Sanderson</autor>
+<editorial>Editorial 3</editorial>
+<anio>1999</anio>
+<genero>Fantasía</genero>
+<paginas>800</paginas>
+<precio>15€</precio>
 <resumen></resumen>
 </libro>
 

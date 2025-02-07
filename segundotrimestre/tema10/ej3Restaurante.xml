@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE menu [
     <!ELEMENT menu (plato+)>
     <!ELEMENT plato (nombre, descripcion?, precio)>
@@ -14,6 +15,6 @@
     </plato>
     <plato>
         <nombre>Gazpacho</nombre>
-        <precio>6.00€</precio>
+        <precio>6.00€</precio> 
     </plato>
 </menu>

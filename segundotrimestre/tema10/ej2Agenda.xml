@@ -1,20 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE agenda [
     <!ELEMENT agenda (contacto+)>
-    <!ELEMENT contacto (nombre, telefono, email?)>
+    <!ELEMENT contacto (nombre, telefono, email, direccion)>
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT telefono (#PCDATA)>
     <!ELEMENT email (#PCDATA)>
-    <!-- ¿Dirección,?-->
+    <!ELEMENT direccion (#PCDATA)>
+
+
 ]>
 
 <agenda>
     <contacto>
         <nombre>Juan Pérez</nombre>
         <telefono>123456789</telefono>
-        <email>juan.perez@example.com</email>
+        <email>juan.jimenz@outlook.es</email>
+        <direccion>Avd la paz 82</direccion>
+
     </contacto>
+
     <contacto>
         <nombre>María López</nombre>
         <telefono>987654321</telefono>
+        <email>Marial02@gmail.com</email>
+        <direccion>Calle del Paraíso nº7</direccion>
     </contacto>
+
+    
+
 </agenda>

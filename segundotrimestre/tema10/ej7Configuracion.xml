@@ -1,8 +1,61 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE configuracion[
-<!ELEMENT configuracion (nombre,version,autor,host,puerto,usuario,contraseña,nombreBDD,tema, idioma,preferencias)>
-<!ELEMENT nombre (#PCDATA)>
-<!ELEMENT version (#PCDATA)>
+<!ELEMENT configuracion (informaciongeneral, basedd, usuarios, aplicacionparametros)>
 
+ <!ELEMENT informaciongeneral (nombre, version, autor)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT version (#PCDATA)>
+  <!ELEMENT autor (#PCDATA)>
+  
+  <!ELEMENT basedd (host, puerto, usuario, password, nombrebdd)>
+  <!ELEMENT host (#PCDATA)>
+  <!ELEMENT puerto (#PCDATA)>
+  <!ELEMENT usuario (#PCDATA)>
+  <!ELEMENT password (#PCDATA)>
+  <!ELEMENT nombrebdd (#PCDATA)>
+  
+  <!ELEMENT usuarios (tema, idioma, preferencias)>
+  <!ELEMENT tema (#PCDATA)>
+  <!ELEMENT idioma (#PCDATA)>
+  <!ELEMENT preferencias (#PCDATA)>
 
+  <!ELEMENT aplicacionparametros (parametro+)>  
+  <!ELEMENT parametro (titulo, valor)>  <!-- Solo  un título y un valor por parámetro -->
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT valor (#PCDATA)>
 ]>
+
+<configuracion>
+
+    <informaciongeneral>
+        <nombre>Nombre1</nombre>
+        <version>1</version>
+        <autor>Jose Ramón</autor>
+    </informaciongeneral>
+
+    <basedd>
+        <host>localhost</host>
+        <puerto>8080</puerto>
+        <usuario>administrador</usuario>
+        <password>Med@c1234</password>
+        <nombrebdd>nombre1</nombrebdd>
+    </basedd>
+
+    <usuarios>
+        <tema>claro</tema>
+        <idioma>Español</idioma>
+        <preferencias>información a destacar</preferencias>
+    </usuarios>
+
+    <aplicacionparametros>
+        <parametro>
+            <titulo>Ejemplo parametro1</titulo> 
+            <valor>20</valor>
+        </parametro>
+        <parametro>
+            <titulo>Tiempo en actividad</titulo> 
+            <valor>5</valor>
+        </parametro>
+    
+    </aplicacionparametros>
+    </configuracion>
