@@ -10,8 +10,8 @@
 
 <tarjeta>
     <numero>123456789</numero>
-    <titular>Ana Pérez</titular>
-    <fechaVencimiento>2026-12</fechaVencimiento>
+    <titular>Ana Gonzales</titular>
+    <fechaVencimiento>2029-12</fechaVencimiento>
     <tipo>Visa</tipo>
-    <entidadEmisora>Banco Popular</entidadEmisora>
+    <entidadEmisora>BBVA</entidadEmisora>
 </tarjeta>
