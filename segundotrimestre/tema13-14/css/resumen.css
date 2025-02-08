@@ -1,0 +1,94 @@
+body {
+    font-family: Arial;
+    margin: 0; 
+    padding: 0; 
+    line-height: 1.5; 
+    max-width: 1200px;
+    margin: auto; 
+    box-sizing: border-box; 
+    background-color: rgb(224, 227, 228);
+}
+
+header {
+    background-color: rgb(46, 81, 90); 
+    display: flex;
+    justify-content: center; 
+    padding: 20px; 
+}
+
+.logo {
+    width: 75px; 
+    height: 75px;
+}
+header h1 {
+    color: #ffffff;
+    margin: 0; 
+    font-size: 30px; 
+}
+
+main{
+    background-color: #ffffff; 
+    padding: 20px;
+    margin-bottom: 10%;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column; /*  una sola columna */
+    align-items: center;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.cuadrado {
+    width: 80%; 
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: justify; 
+    background-color: rgb(224, 227, 228);
+}
+
+.titulo {
+    background-color: rgb(61, 94, 102);
+    font-family: Arial;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+footer p{
+    background-color: #77777733;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+    position: fixed; /* Fija el footer para que siempre se muestre abajo de la página*/
+    bottom: 0; 
+    left: 0;
+    margin: 0; 
+}
+
+
+.menu-contenedor {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.menu-boton {
+    background-color: rgb(66, 93, 100);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu-boton:hover {
+    background-color: rgb(80, 150, 175);
+}

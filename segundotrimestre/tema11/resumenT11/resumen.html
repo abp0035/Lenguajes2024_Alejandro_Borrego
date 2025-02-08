@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alejandro Borrego">
+    <title>Validación XML Schema</title>
+    <link rel="stylesheet" href="../css/resumen.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="../../../primertrimestre/ejercicios/imagenes/logo2.png" alt="Logo">
+        <h1>Tema 11:Validación XML Schema</h1>
+    </header>
+
+    <main>
+        <div class="cuerpo">
+            <article class="cuadrado">
+                <h2 class="titulo">¿Qué es XML Schema?</h2>
+                <p>XML Schema (XSD) es un lenguaje basado en XML que permite definir la estructura de un documento XML y validar su contenido.</p>
+            </article>
+            
+            <article class="cuadrado">
+                <h2 class="titulo">Propósito de XSD</h2>
+                <ul>
+                    <li>Define los elementos y atributos permitidos en un XML.</li>
+                    <li>Especifica el número y orden de los elementos secundarios.</li>
+                    <li>Determina los tipos de datos que pueden usarse.</li>
+                    <li>Permite establecer valores predeterminados y restricciones.</li>
+                </ul>
+            </article>
+            
+            <article class="cuadrado">
+                <h2 class="titulo">Ejemplo de Estructura XSD</h2>
+                <pre>
+&lt;xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"&gt;
+    &lt;xs:element name="persona"&gt;
+        &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+                &lt;xs:element name="nombre" type="xs:string" /&gt;
+                &lt;xs:element name="edad" type="xs:integer" /&gt;
+            &lt;/xs:sequence&gt;
+        &lt;/xs:complexType&gt;
+    &lt;/xs:element&gt;
+&lt;/xs:schema&gt;
+                </pre>
+            </article>
+            
+            <article class="cuadrado">
+                <h2 class="titulo">Asociación de un XML con XSD</h2>
+                <pre>
+&lt;persona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="persona.xsd"&gt;
+    &lt;nombre&gt;Juan&lt;/nombre&gt;
+    &lt;edad&gt;30&lt;/edad&gt;
+&lt;/persona&gt;
+                </pre>
+            </article>
+        </div>
+        
+        <div class="menu-contenedor">
+            <a href="../index.html" class="menu-boton">Volver al Menú</a>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; Alejandro Borrego Pérez de Algaba</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alejandro Borrego">
+    <title>Transformaciones XSL XSLT</title>
+    <link rel="stylesheet" href="../css/resumen.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="../../../primertrimestre/ejercicios/imagenes/logo2.png" alt="Logo">
+        <h1>Tema 13-14: Transformaciones XSL  XSLT</h1>
+    </header>
+
+    <main>
+        <div class="cuerpo">
+            <article class="cuadrado">
+                <h2 class="titulo">¿Qué es XSLT?</h2>
+                <p>XSLT (eXtensible Stylesheet Language Transformations) es un lenguaje basado en XML que permite transformar documentos XML en otros formatos como HTML o XML.</p>
+            </article>
+            
+            <article class="cuadrado">
+                <h2 class="titulo">Características de XSLT</h2>
+                <ul>
+                    <li>Lenguaje declarativo basado en reglas.</li>
+                    <li>Transforma documentos XML en otros formatos.</li>
+                    <li>Permite generar HTML dinámico.</li>
+                    <li>Utiliza XPath para seleccionar y manipular datos.</li>
+                </ul>
+            </article>
+            
+            <article class="cuadrado">
+                <h2 class="titulo">Ejemplo de Transformación con XSLT</h2>
+                <pre>
+        &lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"&gt;
+         &lt;xsl:template match="/"&gt;
+         &lt;html&gt;
+            &lt;body&gt;
+                &lt;h1&gt;&lt;xsl:value-of select="/concesionario/coche/marca"/&gt;&lt;/h1&gt;
+            &lt;/body&gt;
+         &lt;/html&gt;
+            &lt;/xsl:template&gt;
+            &lt;/xsl:stylesheet&gt;
+                </pre>
+            </article>
+            
+            <article class="cuadrado">
+                <h2 class="titulo">Herramientas para XSLT</h2>
+                <ul>
+                    <li><strong>Oxygen XML Editor:</strong> Editor XML con soporte para XSLT.</li>
+                    <li><strong>Altova XMLSpy:</strong> Herramienta avanzada para manipulación XML.</li>
+                    <li><strong>Saxon:</strong> Procesador XSLT de código abierto.</li>
+                    <li><strong>Xalan:</strong> Implementación de XSLT en Apache.</li>
+                </ul>
+            </article>
+        </div>
+        
+        <div class="menu-contenedor">
+            <a href="../index.html" class="menu-boton">Volver al Menú</a>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; Alejandro Borrego Pérez de Algaba</p>
+    </footer>
+</body>
+</html>
