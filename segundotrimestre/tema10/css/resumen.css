@@ -10,22 +10,54 @@ body {
 }
 
 header {
-    background-color: rgb(93, 175, 196); 
-    display: flex;
-    justify-content: center; 
-    padding: 20px; 
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* Columnas para logo, título y nav */
+    align-items: center; 
+    background-color: rgb(93, 175, 196) ;
+    padding: 14px 20px;
+    color: white;
+    margin: 0;
 }
+
+header h1 {
+    font-size: 24px;
+    color: white;
+    text-align: center; 
+    grid-column: 2; 
+
+
+}
+nav {
+    display: grid;
+    grid-auto-flow: column; /* Organiza los enlaces */
+    justify-content: center; 
+    gap: 20px; 
+    background-color:  rgb(168, 220, 233);
+    padding: 10px 0; 
+    margin-bottom: 20px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none; 
+    background-color: rgb(168, 220, 233);
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgb(66, 121, 134);;
+}
+
+
+
 
 .logo {
     width: 75px; 
     height: 75px;
     margin-right: 10%;
 }
-header h1 {
-    color: #ffffff;
-    margin: 0; 
-    font-size: 30px; 
-}
+
 
 main{
     background-color: #ffffff; 
@@ -73,23 +105,4 @@ footer p{
 }
 
 
-.menu-contenedor {
-    text-align: center;
-    margin-bottom: 10%;
-}
 
-.menu-boton {
-    background-color: rgb(93, 175, 196);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-}
-
-.menu-boton:hover {
-    background-color: rgb(80, 150, 175);
-}

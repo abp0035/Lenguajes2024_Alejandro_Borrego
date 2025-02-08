@@ -1,3 +1,54 @@
-<!DOCTYPE tienda[
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<!DOCTYPE hospital [
+  <!ELEMENT hospital (paciente+, medico+)>
+  
+  <!ELEMENT paciente (nombre, apellido, fechaNacimiento, enfermedad, fechaEntrada, fechaSalida)>
+  <!ATTLIST paciente id CDATA #REQUIRED>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apellido (#PCDATA)>
+  <!ELEMENT fechaNacimiento (#PCDATA)>
+  <!ELEMENT enfermedad (#PCDATA)>
+  <!ELEMENT fechaEntrada (#PCDATA)>
+  <!ELEMENT fechaSalida (#PCDATA)>
+  
+  <!ELEMENT medico (nombre, apellido, especialidad, telefono)>
+  <!ATTLIST medico id ID #REQUIRED>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apellido (#PCDATA)>
+  <!ELEMENT especialidad (#PCDATA)>
+  <!ELEMENT telefono (#PCDATA)>
+  
 ]>
+
+<hospital>
+    <paciente id="P01">
+        <nombre>Ana</nombre>
+        <apellido>García</apellido>
+        <fechaNacimiento>12/04/1985</fechaNacimiento>
+        <enfermedad>Hipertensión</enfermedad>
+        <fechaEntrada>2025-03-10</fechaEntrada>
+        <fechaSalida>2025-03-20</fechaSalida>
+    </paciente>
+    <paciente id="P02">
+        <nombre>Carlos</nombre>
+        <apellido>Martínez</apellido>
+        <fechaNacimiento>23/08/1992</fechaNacimiento>
+        <enfermedad>Asma</enfermedad>
+        <fechaEntrada>2025-03-12</fechaEntrada>
+        <fechaSalida>2025-03-18</fechaSalida>
+    </paciente>
+    
+    <medico id="M01">
+        <nombre>Laura</nombre>
+        <apellido>Fernández</apellido>
+        <especialidad>Cardiología</especialidad>
+        <telefono>+34 600987654</telefono>
+    </medico>
+    <medico id="M02">
+        <nombre>Javier</nombre>
+        <apellido>Rodríguez</apellido>
+        <especialidad>Neumología</especialidad>
+        <telefono>+34 600123789</telefono>
+    </medico>
+</hospital>

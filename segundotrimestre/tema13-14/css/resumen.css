@@ -25,6 +25,28 @@ header h1 {
     margin: 0; 
     font-size: 30px; 
 }
+nav {
+    display: grid;
+    grid-auto-flow: column; 
+    justify-content: center; 
+    gap: 20px; 
+    background-color:  rgb(46, 81, 90);
+    padding: 10px 0; 
+    margin-bottom: 20px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none; 
+    background-color: rgb(61, 152, 175);
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgb(29, 124, 51);;
+}
+
 
 main{
     background-color: #ffffff; 
@@ -45,7 +67,7 @@ main{
     margin: 0 auto;
     padding: 15px;
     border: 1px solid #ccc;
-    border-radius: 10px; /* Bordes redondeados */
+    border-radius: 10px; 
     text-align: justify; 
     background-color: rgb(224, 227, 228);
 }
@@ -71,24 +93,3 @@ footer p{
     margin: 0; 
 }
 
-
-.menu-contenedor {
-    text-align: center;
-    margin-bottom: 10%;
-}
-
-.menu-boton {
-    background-color: rgb(66, 93, 100);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-}
-
-.menu-boton:hover {
-    background-color: rgb(80, 150, 175);
-}

@@ -20,7 +20,7 @@
   <!ELEMENT preferencias (#PCDATA)>
 
   <!ELEMENT aplicacionparametros (parametro+)>  
-  <!ELEMENT parametro (titulo, valor)>  <!-- Solo  un título y un valor por parámetro -->
+  <!ELEMENT parametro (titulo, valor)>  
   <!ELEMENT titulo (#PCDATA)>
   <!ELEMENT valor (#PCDATA)>
 ]>

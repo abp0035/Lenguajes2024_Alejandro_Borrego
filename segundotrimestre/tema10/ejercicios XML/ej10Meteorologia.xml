@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!DOCTYPE meteorologia [
+<!DOCTYPE estacionMeteorologica [
+  <!ELEMENT estacionMeteorologica (ubicacion, fecha, hora, temperatura, humedad, presion, viento, lluvia)>
+  <!ELEMENT ubicacion (#PCDATA)>
+  <!ELEMENT fecha (#PCDATA)>
+  <!ELEMENT hora (#PCDATA)>
+  <!ELEMENT temperatura (#PCDATA)>
+  <!ELEMENT humedad (#PCDATA)>
+  <!ELEMENT presion (#PCDATA)>
+  <!ELEMENT viento (#PCDATA)>
+  <!ELEMENT lluvia (#PCDATA)>
+  <!ATTLIST temperatura unidad CDATA #REQUIRED>
+  <!ATTLIST humedad unidad CDATA #REQUIRED>
+  <!ATTLIST presion unidad CDATA #REQUIRED>
+  <!ATTLIST viento unidad CDATA #REQUIRED>
+  <!ATTLIST lluvia unidad CDATA #REQUIRED>
 
 ]>
+
+<estacionMeteorologica>
+    <ubicacion>Córdoba, España</ubicacion>
+    <fecha>2025-01-14</fecha>
+    <hora>18:33</hora>
+    <temperatura unidad="°C">24</temperatura>
+    <humedad unidad="%">10</humedad>
+    <presion unidad="hPa">1000</presion>
+    <viento unidad="km/h">20</viento>
+    <lluvia unidad="mm">0</lluvia>
+</estacionMeteorologica>

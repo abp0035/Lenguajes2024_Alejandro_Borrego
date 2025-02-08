@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!DOCTYPE pokedaw[
+<!DOCTYPE pokeDAW [
+  <!ELEMENT pokeDAW (nombre, numero, descripcion, tipo, genero, estado)>  
 
-
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT numero (#PCDATA)>
+  <!ELEMENT descripcion (#PCDATA)>
+  <!ELEMENT tipo (#PCDATA)>
+  <!ELEMENT genero (#PCDATA)>
+  <!ELEMENT estado (habilidades, destreza, nivel, fuerza, faseEvolucion, puntosVida)>
+  <!ELEMENT habilidades (#PCDATA)>
+  <!ELEMENT destreza (#PCDATA)>
+  <!ELEMENT nivel (#PCDATA)>
+  <!ELEMENT fuerza (#PCDATA)>
+  <!ELEMENT faseEvolucion (#PCDATA)>
+  <!ELEMENT puntosVida (#PCDATA)>
 
 ]>
+
+
+<pokeDAW>
+    <nombre>PokeDAW</nombre>
+    <numero>1</numero>
+    <descripcion>descripcion del pokemon</descripcion>
+    <tipo>fuego</tipo>
+    <genero>masculino</genero>
+
+    <estado>
+        <habilidades>habilidad 1, habilidad 2, habilidad3</habilidades>
+        <destreza>10</destreza>
+        <nivel>10</nivel>
+        <fuerza>10</fuerza>
+        <faseEvolucion>3</faseEvolucion>
+        <puntosVida>100</puntosVida>
+    </estado>
+
+
+</pokeDAW>

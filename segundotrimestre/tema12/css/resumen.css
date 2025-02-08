@@ -25,6 +25,27 @@ header h1 {
     margin: 0; 
     font-size: 30px; 
 }
+nav {
+    display: grid;
+    grid-auto-flow: column; /* Organiza los enlaces */
+    justify-content: center; 
+    gap: 20px; 
+    background-color:  rgb(70, 128, 85);
+    padding: 10px 0; 
+    margin-bottom: 20px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none; 
+    background-color: rgb(35, 190, 126);
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgb(18, 61, 28);;
+}
 
 main{
     background-color: #ffffff; 

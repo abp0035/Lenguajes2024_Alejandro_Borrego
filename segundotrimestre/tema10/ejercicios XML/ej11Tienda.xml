@@ -1,3 +1,20 @@
-<!DOCTYPE tienda[
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE tienda [
+  <!ELEMENT tienda (producto+)>  
+  <!ELEMENT producto (nombre, precio, descripcion, categoria, enStock)>
+  <!ELEMENT nombre (#PCDATA)>
+ <!ELEMENT precio (#PCDATA)>  
+  <!ATTLIST precio moneda CDATA #REQUIRED> 
+  <!ELEMENT descripcion (#PCDATA)>
+  <!ELEMENT categoria (#PCDATA)>
+  <!ELEMENT enStock (#PCDATA)>
 ]>
+<tienda>  
+    <producto>
+        <nombre>Zapatillas</nombre>
+        <precio moneda="EUR">30</precio>
+        <descripcion>Zapatillas deportivas</descripcion>
+        <categoria>ropa</categoria>
+        <enStock>100</enStock>
+    </producto>
+</tiendaOnline>
