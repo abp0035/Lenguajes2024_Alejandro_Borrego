@@ -58,6 +58,7 @@ footer {
 }
 
 
+
 .cuadrado {
     background: rgb(224, 227, 228);
     padding: 20px;
@@ -97,5 +98,5 @@ footer {
 
 .boton:hover {
     background-color: rgb(80, 150, 175);
-    text-decoration: none;
+    border-color: white;
 }
