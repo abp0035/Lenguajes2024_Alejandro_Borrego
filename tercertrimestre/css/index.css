@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(93, 175, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10%;
+
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    
+
+}
+
+footer {
+    background-color: rgb(93, 175, 196);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
+
+
+.cuadrado {
+    background: rgb(224, 227, 228);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15%;
+    text-decoration: none;
+
+
+}
+
+
+.boton {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-decoration: none;
+    padding: 20px 5%;
+    font-size: 18px;
+    border-radius: 5px;
+    display: block;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+
+
+}
+
+.boton:hover {
+    background-color: rgb(80, 150, 175);
+    text-decoration: none;
+}
