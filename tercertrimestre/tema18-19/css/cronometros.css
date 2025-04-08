@@ -1,0 +1,45 @@
+main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .tiempo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .tiempo div {
+    text-align: center;
+  }
+  
+  .tiempo span {
+    display: block;
+    font-size: 40px;
+    color:rgb(93, 175, 196);
+    font-weight: bold;
+  }
+  
+  
+  .botones boton {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color:rgb(93, 175, 196);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+
+  .botones boton:hover{
+    border-color: rgb(93, 175, 196);
+    background-color: rgb(8, 40, 70);
+    
+  }
+ 
