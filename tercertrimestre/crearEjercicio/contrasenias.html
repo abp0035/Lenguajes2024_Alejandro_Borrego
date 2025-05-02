@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Contraseñas</title>
+
+  <link rel="stylesheet" href="contrasenias.css">
+</head>
+<body>
+    <header>
+        <div class="header-contenido">
+          <img class="logo" src="../../primertrimestre/ejercicios/imagenes/logo2.png" alt="Logo">
+          <h1>GENERADOR DE CONTRASEÑAS</h1>
+        </div>
+      </header>
+      
+      <main>
+        <div class="contenedor">
+          <h1>🔐 Generador de Contraseñas Seguras</h1>
+
+    <input type="number" id="longitud" placeholder="Longitud de la contraseña" min="4" max="64">
+    <div class="grupo-opciones">
+        <div class="opcion"><input type="checkbox" id="mayus"><label for="mayus">Mayúsculas</label></div>
+        <div class="opcion"><input type="checkbox" id="minus"><label for="minus">Minúsculas</label></div>
+        <div class="opcion"><input type="checkbox" id="num"><label for="num">Números</label></div>
+        <div class="opcion"><input type="checkbox" id="simbolos"><label for="simbolos">Símbolos</label></div>
+      </div>
+      
+    
+    <button onclick="generar()">Generar contraseña</button>
+
+    <p id="resultado"></p>
+    
+    <button id="copiar" onclick="copiarAlPortapapeles()">Copiar contraseña</button>
+<p id="mensajeCopiado" style="color: green; font-size: 0.9rem;"></p>
+
+</div>
+</main>
+
+
+  
+  <footer>
+    <p>  Alejandro Borrego </p>
+</footer>
+
+  <script src="contrasenias.js"></script>
+</body>
+</html>

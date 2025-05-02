@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #00f2fe;
+    margin: 0;
+    padding: 0;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* ocupa el espacio entre header y footer */
+  }
+  
+  
+
+  .contenedor {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+  input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  .grupo-opciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el grupo completo */
+    margin-bottom: 1rem;
+  }
+  
+  .opcion {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 200px; /* o el valor que se adapte a tu diseño */
+  }
+  
+  .opcion input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+  
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.7rem 2.5rem;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #005fa3;
+  }
+  #copiar {
+    margin-top: 0.5rem;
+    padding: 0.4rem 1rem;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  #copiar:hover {
+    background-color: #005fa3;
+  }
+  
+  header {
+    background-color: rgb(93, 175, 196);
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  header h1 {
+    color: white;
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  footer {
+    background-color: rgb(93, 175, 196);
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
