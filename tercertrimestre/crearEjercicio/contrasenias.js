@@ -45,7 +45,7 @@ function obtenerRandom(str) {
       resultado += obtenerRandom(caracteres);
     }
   
-    // Mezclar para que los obligatorios no estén al principio siempre
+  // Mezclar para que no empiece siempre por mayuscua
     resultado = resultado.split('').sort(() => Math.random() - 0.5).join('');
   
     document.getElementById("resultado").textContent = resultado;

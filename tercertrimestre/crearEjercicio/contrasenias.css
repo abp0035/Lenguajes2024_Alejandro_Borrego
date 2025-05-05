@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh; /* ocupa el espacio entre header y footer */
+    min-height: 80vh;
   }
   
   
@@ -43,7 +43,7 @@ body {
   .grupo-opciones {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra el grupo completo */
+    align-items: center; 
     margin-bottom: 1rem;
   }
   
@@ -51,7 +51,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    width: 200px; /* o el valor que se adapte a tu diseño */
+    width: 200px; 
   }
   
   .opcion input[type="checkbox"] {
