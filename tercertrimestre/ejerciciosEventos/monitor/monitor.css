@@ -1,0 +1,83 @@
+body{
+    padding:0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+  }
+
+
+.contenedor {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    border-style:dashed;
+    border-color: aqua;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 60%;
+    height: 500px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+    
+  button {
+    margin-top: 1rem;
+    padding: 0.7rem 2.5rem;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #005fa3;
+  }
+
+  .zona-interaccion {
+    border: 2px dashed #0077cc;
+    height: 250px;
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f9f9f9;
+}
+
+.circulo {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    cursor: grab;
+}
+
+.registro {
+    margin-top: 1rem;
+    text-align: left;
+    max-height: 200px;
+    overflow-y: auto;
+    border-left: 2px solid #0077cc;
+    padding-left: 1rem;
+}
+
+.registro ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.registro li {
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+}
