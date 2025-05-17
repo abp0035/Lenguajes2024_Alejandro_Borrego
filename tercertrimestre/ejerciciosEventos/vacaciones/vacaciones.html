@@ -1,11 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Alejandro Borrego">
+  <title>De vacaciones</title>
+  <link rel="stylesheet" href="vacaciones.css"/>
+  <link rel="stylesheet" href="../../css/generico.css"/>
 </head>
-<body>
-    
+
+<body id="inicioPagina">
+ <header>
+        <img class="logo" src="../../../primertrimestre/ejercicios/imagenes/logo2.png" alt="Logo">
+    </a>
+    <h1>Vacaciones</h1>
+    </header>
+
+  <div class="contenido">
+    <h2>Destino </h2>
+    <p id="mensaje">¿A dónde me voy de vacaciones?</p>
+    <button id="volverBtn">Inicio</button>
+
+    <div id="zona-unicornio">
+      <div id="unicornio" draggable="true">
+        <img src="./images/unicornio.png" alt="Unicornio" />
+      </div>
+    </div>
+
+    <div class="destinos">
+      <div class="destino" data-destino="Malaga">
+        <img src="./images/fondo1.png" alt="fondo1" />
+      </div>
+      <div class="destino" data-destino="Huelva">
+        <img src="./images/fondo2.png" alt="fondo2" />
+      </div>
+      <div class="destino" data-destino="Galicia">
+        <img src="./images/fondo3.png" alt="fondo3" />
+      </div>
+      <div class="destino" data-destino="a la montaña">
+        <img src="./images/fondo4.png" alt="fondo4" />
+      </div>
+    </div>
+  </div>
+
+ 
+
+  <footer>
+    <p> Alejandro Borrego</p>
+  </footer>
+
+  <script src="vacaciones.js"></script>
 </body>
 </html>

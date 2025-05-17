@@ -2,6 +2,7 @@ body{
     padding:0;
     margin: 0;
     font-family: Arial, sans-serif;
+    margin-left: 10px;
 
 }
 main {
@@ -11,20 +12,27 @@ main {
     min-height: 80vh;
   }
 
-
 .contenedor {
-    background: white;
-    padding: 2rem;
-    border-radius: 1rem;
-    border-style:dashed;
-    border-color: aqua;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    width: 60%;
-    height: 500px;
-    margin-top: 1rem;
-    margin-left: 1rem;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: auto; /* Para que se ajuste al contenido */
+  gap: 2rem;
+}
+
+.contenido-principal {
+  flex: 2;
+}
+
+.registro {
+  flex: 1;
+  max-height: 450px;
+  overflow-y: auto;
+  border-left: 2px solid #0077cc;
+  padding-left: 1rem;
+}
+
 
     
   button {
@@ -63,14 +71,7 @@ main {
     cursor: grab;
 }
 
-.registro {
-    margin-top: 1rem;
-    text-align: left;
-    max-height: 200px;
-    overflow-y: auto;
-    border-left: 2px solid #0077cc;
-    padding-left: 1rem;
-}
+
 
 .registro ul {
     list-style: none;

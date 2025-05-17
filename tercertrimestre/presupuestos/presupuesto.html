@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Juan Galisteo">
+  <title>Presupuestos para Cajas</title>
+  <link rel="stylesheet" href="presupuesto.css" />
+  <link rel="stylesheet" href="../css/generico.css" />
+</head>
+
+<body id="inicioPagina">
+<header>
+        <img class="logo" src="../../../primertrimestre/ejercicios/imagenes/logo2.png" alt="Logo">
+    </a>
+    <h1>Presupuesto de cajas</h1>
+    </header>
+
+  <div class="contenido">
+    <h2>Presupuestos para cajas</h2>
+
+    <div class="grid">
+      <div class="calculo">
+        <h3>Sección de Cálculo</h3>
+        <label>Ancho (cm): <input type="number" id="ancho" /></label>
+        <label>Alto (cm): <input type="number" id="alto" /></label>
+        <label>Profundidad (cm): <input type="number" id="profundidad" /></label>
+        <label>Material:
+          <select id="material">
+            <option value="plastico">Plástico</option>
+            <option value="carton">Cartón</option>
+            <option value="madera">Madera</option>
+          </select>
+        </label>
+        <button onclick="calcular()">Calcular</button>
+      </div>
+
+      <div class="configuracion">
+        <h3>Sección de Configuración</h3>
+        <label>Precio base por m³: <input type="number" id="precioBase" value="20" /></label>
+        <label>Incremento (%) para Plástico: <input type="number" id="incPlastico" value="10" /></label>
+        <label>Incremento (%) para Cartón: <input type="number" id="incCarton" value="5" /></label>
+        <label>Incremento (%) para Madera: <input type="number" id="incMadera" value="15" /></label>
+        <label>IVA (%): <input type="number" id="iva" value="21" /></label>
+      </div>
+    </div>
+    <div class="resultado" id="resultado"></div>
+  </div>
+
+ 
+  <footer>
+    <p>Alejandro Borrego</p>
+  </footer>
+
+  <script src="presupuesto.js"></script>
+</body>
+</html>
