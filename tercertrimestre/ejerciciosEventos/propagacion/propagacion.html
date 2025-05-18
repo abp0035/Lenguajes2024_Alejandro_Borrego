@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Alejandro Borrego">
+  <title>stopPropagation y preventDefault</title>
+  <link rel="stylesheet" href="propagacion.css" />
+  <link rel="stylesheet" href="../../css/generico.css" />
+</head>
+
+<body id="inicioPagina">
+   <header>
+        <img class="logo" src="../../../primertrimestre/ejercicios/imagenes/logo2.png" alt="Logo">
+    </a>
+    <h1>StopPropation y preventTDefault</h1>
+    </header>
+
+  <div class="contenido">
+    <h2>Demostración de <code>stopPropagation()</code></h2>
+    <div class="padre" id="padre">
+      Padre
+      <div class="hijo" id="hijo1">Hijo 1 (con stopPropagation)</div>
+      <div class="hijo" id="hijo2">Hijo 2 (sin stopPropagation)</div>
+    </div>
+
+    <h2>Demostración de <code>preventDefault()</code></h2>
+    <button id="botonToggle">Desactivar/activar Enlace</button><br /><br />
+    <a href="https://www.w3schools.com" target="_blank" id="enlace">W3Schools</a>
+
+    <p id="mensaje"></p>
+  </div>
+
+    </div>
+ <div id="botonHome">
+    <a href="../../index.html"><img src="../../imagenes/home.png" alt=" Home"></a>
+  </div>
+
+  <footer>
+    <p>Alejandro Borrego</p>
+  </footer>
+
+  <script src="propagacion.js"></script>
+</body>
+</html>
