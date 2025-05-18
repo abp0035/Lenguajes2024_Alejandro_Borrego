@@ -17,7 +17,7 @@ main {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  height: auto; /* Para que se ajuste al contenido */
+  height: auto;
   gap: 2rem;
 }
 
@@ -33,21 +33,6 @@ main {
   padding-left: 1rem;
 }
 
-
-    
-  button {
-    margin-top: 1rem;
-    padding: 0.7rem 2.5rem;
-    background-color: #0077cc;
-    color: white;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-  }
-
-  button:hover {
-    background-color: #005fa3;
-  }
 
   .zona-interaccion {
     border: 2px dashed #0077cc;
@@ -82,3 +67,18 @@ main {
     margin-bottom: 0.3rem;
     font-size: 0.9rem;
 }
+
+    
+  button {
+    margin-top: 1rem;
+    padding: 0.7rem 2.5rem;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #005fa3;
+  }

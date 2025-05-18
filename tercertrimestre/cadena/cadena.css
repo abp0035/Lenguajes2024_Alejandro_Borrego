@@ -17,30 +17,10 @@ input[type="text"] {
     border: 1px solid #ccc;
     background-color: #fff;
     width: 250px;
-    box-sizing: border-box;
 }
-
-button {
-    background-color: #be74bf;
-    color: white;
-    padding: 12px 20px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    width: 220px;
-    margin: 10px 0 30px;
-}
-
-button:hover {
-    background-color: #b4d1ec;
-}
-
 .resultados {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding: 25px;
     width: 100%;
     max-width: 500px;
@@ -56,4 +36,21 @@ button:hover {
 .resultados strong {
     color: #a3c1dd;
 }
+
+button {
+    background-color: #4d44c4;
+    color: white;
+    padding: 12px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+button:hover {
+    background-color: #b4d1ec;
+}
+
+
 
