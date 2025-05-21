@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figuras Interactivas</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="../css/generico.css" />
+</head>
+<body>
+
+  <header>
+    <img class="logo" src="../../../primertrimestre/ejercicios/imagenes/logo2.png" alt="Logo">
+    <h1>Titulo</h1>
+  </header>
+
+  <main class="zona-central">
+    
+    <div class="figuras">
+      <div class="figura cuadrado" draggable="true"></div>
+      <div class="figura circulo" draggable="true"></div>
+      <div class="figura triangulo" draggable="true">
+        <svg viewBox="0 0 100 100" class="triangulo-svg">
+<polygon points="50,5 95,95 5,95" fill="white" stroke="black" stroke-width="4" />
+        </svg>
+      </div>
+    </div>
+
+    <div class="zona-contenedor-tabla">
+      <div id="contenedor" ondragover="event.preventDefault()"></div>
+
+      <div class="tabla-wrapper">
+        <table id="tablaResumen">
+          <thead>
+            <tr>
+              <th>Figura</th>
+              <th>Blanco</th>
+              <th>Amarillo</th>
+              <th>Rojo</th>
+              <th>Verde</th>
+              <th>Azul</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Cuadrado</th>
+              <td data-color="white" data-tipo="cuadrado">0</td>
+              <td data-color="yellow" data-tipo="cuadrado">0</td>
+              <td data-color="red" data-tipo="cuadrado">0</td>
+              <td data-color="green" data-tipo="cuadrado">0</td>
+              <td data-color="blue" data-tipo="cuadrado">0</td>
+            </tr>
+            <tr>
+              <th>Circulo</th>
+              <td data-color="white" data-tipo="circulo">0</td>
+              <td data-color="yellow" data-tipo="circulo">0</td>
+              <td data-color="red" data-tipo="circulo">0</td>
+              <td data-color="green" data-tipo="circulo">0</td>
+              <td data-color="blue" data-tipo="circulo">0</td>
+            </tr>
+            <tr>
+              <th>Triángulo</th>
+              <td data-color="white" data-tipo="triangulo">0</td>
+              <td data-color="yellow" data-tipo="triangulo">0</td>
+              <td data-color="red" data-tipo="triangulo">0</td>
+              <td data-color="green" data-tipo="triangulo">0</td>
+              <td data-color="blue" data-tipo="triangulo">0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>
+      Alejandro Borrego |
+      <a href="../index.html">Volver a página inicial</a>
+    </p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
